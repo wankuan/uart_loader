@@ -1,0 +1,3 @@
+/Users/kendrick/my_workspace/c_cpp_workspace/uart_loader/build/CMakeFiles/rebuild_cache.dir
+/Users/kendrick/my_workspace/c_cpp_workspace/uart_loader/build/CMakeFiles/edit_cache.dir
+/Users/kendrick/my_workspace/c_cpp_workspace/uart_loader/build/CMakeFiles/uart_loader.out.dir
