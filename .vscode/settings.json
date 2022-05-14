@@ -36,6 +36,8 @@
         "mydef.h": "c",
         "new": "c",
         "*.tcc": "c",
-        "memory": "c"
+        "memory": "c",
+        "bin_transfer_protocol.h": "c",
+        "uart_port.h": "c"
     }
 }

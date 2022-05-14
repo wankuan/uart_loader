@@ -10,7 +10,6 @@
             "compilerPath": "/usr/bin/clang",
             "cStandard": "gnu17",
             "cppStandard": "c++14",
-            "intelliSenseMode": "macos-gcc-arm"
         }
     ],
     "version": 4
