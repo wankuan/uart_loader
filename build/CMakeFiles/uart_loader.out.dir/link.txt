@@ -1,1 +1,0 @@
-clang  -g -O0 --std='gnu2x -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/llvm/lib CMakeFiles/uart_loader.out.dir/link_mac.c.o CMakeFiles/uart_loader.out.dir/main.c.o  -o ../uart_loader.out 
