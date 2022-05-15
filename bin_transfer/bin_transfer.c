@@ -22,7 +22,7 @@ bin_transfer_step_t cur_step = CHECK_VERSION;
 
 ret_t wait_ack(uint16_t msg_class_id, uint32_t timeout)
 {
-
+    // TODO: 从串口接收函数实现等ack的逻辑
     return RET_SUCCESS;
 }
 

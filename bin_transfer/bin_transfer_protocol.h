@@ -82,7 +82,7 @@ typedef struct
 typedef struct
 {
     uint32_t cur_package_index;
-    uint32_t  package_size;
+    uint32_t package_size;
     uint8_t  package_buffer[0];
 }__PACKED data_transfer_req_t;
 typedef struct

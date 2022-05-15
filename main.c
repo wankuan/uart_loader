@@ -5,6 +5,7 @@
 
 #include "link_mac.h"
 #include "bin_transfer.h"
+#include "bin_transfer_protocol.h"
 
 uint8_t frame_payload[4] = {0x0, 0x01, 0x02, 0x03};
 
@@ -17,6 +18,24 @@ ret_t test_msg_cb(mac_frame_t *frame) {
     return RET_SUCCESS;
 }
 
+void write_data_to_app_bin(uint8_t *stream, uint32_t *stream_length) {
+    static FILE *pFile = NULL;
+    if (pFile == NULL) {
+        pFile = fopen("app_bin_unpack.bin", "a+");
+        DBG("open file...start to write..\n");
+    }
+    *stream_length = fwrite(stream, 1, *stream_length, pFile);
+    DBG("success write size:%d.. \n", *stream_length);
+}
+
+ret_t bin_loader_unpack_cb(mac_frame_t *frame) {
+    DBG("bin_loader_unpack_cb has been called...msg_class:0x%x msg_id:0x%x length:%d\n", frame->msg_class, frame->msg_id,
+        frame->payload_length);
+    data_transfer_req_t * req_t = (data_transfer_req_t *)frame->payload;
+    uint32_t data_write = req_t->package_size;
+    write_data_to_app_bin(req_t->package_buffer, &data_write);
+    return RET_SUCCESS;
+}
 
 static void printf_all_data_ten_one_line(uint8_t *data, uint16_t size)
 {
@@ -54,6 +73,27 @@ void read_data_from_file(const char *file_name, uint8_t *stream, uint32_t *strea
 #define STREAM_MAX_LENGTH 522
 
 
+void unpack_file_cycle(const char *file_name, uint16_t unpackage_size)
+{
+    FILE *pFile = NULL;
+    pFile = fopen(file_name, "r");
+    if (pFile == NULL) {
+        return;
+    }
+    uint8_t *stream_buffer = (uint8_t *)malloc(unpackage_size);
+    uint16_t success_read_size = 0;
+    while(1){
+        memset(stream_buffer, 0, unpackage_size);
+        success_read_size = fread(stream_buffer, 1, unpackage_size, pFile);
+        unpack_stream_cycle((uint8_t *)stream_buffer, success_read_size);
+        if(unpackage_size != success_read_size)
+        {
+            DBG("read file:%s done...\n", file_name);
+            break;
+        }
+    }
+}
+
 int main(int argc, char *argv[]) {
     uint8_t mode = 0;
     if (argc <= 2) {
@@ -70,18 +110,20 @@ int main(int argc, char *argv[]) {
         DBG("args[1] invalid..\n");
     }
     if(mode == 1){
-        uint8_t input_max_buffer[STREAM_MAX_LENGTH] = {0};
-        uint32_t stream_length = 0;
+        if(argc != 4){
+            DBG("argc != 4..exit\n");
+            return -1;
+        }
+        uint32_t one_unpack_size = atoi(argv[3]);
+        if(one_unpack_size >= 1024){
+            DBG("one_unpack_size:%d over max:%d..exit\n", one_unpack_size, 1024);
+            return -1;
+        }
         frame_callback_table_init();
         register_frame_callback(0x11, 0x22, test_msg_cb);
-        for (uint8_t i = 2; i < argc; ++i) {
-            DBG("current binary file:%s...\n", argv[i]);
-            memset(input_max_buffer, 0, STREAM_MAX_LENGTH);
-            stream_length = 0;
-            read_data_from_file(argv[i], input_max_buffer, &stream_length, STREAM_MAX_LENGTH);
-
-            unpack_stream_cycle((uint8_t *)input_max_buffer, stream_length);
-        }
+        register_frame_callback(0x02, 0x04, bin_loader_unpack_cb);
+        DBG("current binary file:%s...one_unpack_size:%d\n", argv[2], one_unpack_size);
+        unpack_file_cycle(argv[2], one_unpack_size);
     }else if(mode == 2){
         #define MAX_UPGRADE_BIN_SIZE (1024*1024)
         DBG("upgrade binary file:%s...\n", argv[2]);

@@ -4,6 +4,8 @@
 #include <stdio.h>
 
 #define DBG(x,args...)  printf("[DEBUG] "x"", ##args)
+#define INFO(x,args...)  printf("[INFO] "x"", ##args)
+#define ERROR(x,args...)  printf("[ERROR] "x"", ##args)
 
 
 typedef enum
