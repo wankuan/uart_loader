@@ -109,13 +109,14 @@ int main(int argc, char *argv[])
     SerialPortSettings.c_oflag &= ~OPOST; /*No Output Processing*/
 
     /* Setting Time outs */
-    SerialPortSettings.c_cc[VMIN]  = 10; /* Read at least 10 characters */
+    SerialPortSettings.c_cc[VMIN]  = 50; /* Read at least 10 characters */
     SerialPortSettings.c_cc[VTIME] = 1;  /* Wait indefinetly  unit:100ms */
 
     if ((tcsetattr(fd, TCSANOW, &SerialPortSettings)) != 0) /* Set the attributes to the termios structure*/
         printf("\n  ERROR ! in Setting attributes");
     else
         printf("\n  BaudRate = %d \n  StopBits = 1 \n  Parity   = none", baudrate);
+    tcflush(fd, TCIFLUSH); /* Discards old data in the rx buffer            */
 
     /*------------------------------- Read data from serial port -----------------------------*/
      int  err;
@@ -125,7 +126,6 @@ int main(int argc, char *argv[])
          printf ( "can't create thread: %s\n" ,  strerror (err));
 
 
-    tcflush(fd, TCIFLUSH); /* Discards old data in the rx buffer            */
 
     char read_buffer[32]; /* Buffer to store the data received              */
     int  bytes_read = 0;  /* Number of bytes read by the read() system call */

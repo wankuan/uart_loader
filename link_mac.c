@@ -106,7 +106,6 @@ ret_t unpack_stream_cycle(uint8_t *stream, uint16_t stream_length)
     static uint16_t          frame_buffer_index                           = 0;
     static uint16_t          last_frame_left_length                       = 0;
     static unpack_fsm_step_t step                                         = UNPACK_PREABLE_SYNC;
-    static uint8_t           flag_last_stream_header_invalid              = 0;
 
     // debug 信息统计
     static uint16_t total_stream_nums      = 0;
@@ -153,8 +152,6 @@ ret_t unpack_stream_cycle(uint8_t *stream, uint16_t stream_length)
                     }
                     DBG("stream left stream_length:%d not cover while frame header:%lu..exit\n", (stream_length - cur_stream_read_index),
                         sizeof(mac_frame_t));
-                    // 标记上一次解包循环是没有完整解出header的
-                    flag_last_stream_header_invalid = 1;
                     break;
                 }
             }

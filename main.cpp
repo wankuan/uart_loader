@@ -4,9 +4,11 @@
 #include <string.h>
 
 #include "link_mac.h"
-#include "bin_transfer.h"
+#include "bin_transfer.hpp"
 #include "bin_transfer_protocol.h"
 #include "crc32.h"
+#include "UartCore.hpp"
+
 
 uint8_t frame_payload[4] = {0x0, 0x01, 0x02, 0x03};
 
@@ -92,7 +94,6 @@ void unpack_file_cycle(const char *file_name, uint16_t unpackage_size)
         }
     }
 }
-void uart_test_read_loop(char *uart_name, uint32_t baud);
 int main(int argc, char *argv[])
 {
     uint8_t mode = 0;
@@ -101,7 +102,6 @@ int main(int argc, char *argv[])
         // uint32_t stream = {0x00000001};
         // crc_result = crc32_cal(&stream, 4, crc_result);
         // DBG("scrc:0x%x\n", crc_result);
-        uart_test_read_loop("/dev/cu.usbserial-0001", 921600);
 
         DBG("no input args..\n");
         return -1;
@@ -138,7 +138,10 @@ int main(int argc, char *argv[])
         uint32_t stream_length = 0;
         read_data_from_file(argv[2], input_max_buffer, &stream_length, MAX_UPGRADE_BIN_SIZE);
 
-        bin_transfer_entry(input_max_buffer, stream_length);
+        auto uart0 = UartCore("/dev/cu.usbserial-23201", 921600);
+        bin_transfer_entry(uart0, input_max_buffer, stream_length);
     }
     return 0;
 }
+
+

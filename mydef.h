@@ -3,9 +3,12 @@
 
 #include <stdio.h>
 
-#define DBG(x,args...)  printf("[DEBUG] "x"", ##args)
-#define INFO(x,args...)  printf("[INFO] "x"", ##args)
-#define ERROR(x,args...)  printf("[ERROR] "x"", ##args)
+#ifdef __cplusplus
+extern "C" {
+#endif
+#define DBG(x,args...)  printf("[DEBUG] " x"", ##args)
+#define INFO(x,args...)  printf("[INFO] " x"", ##args)
+#define ERROR(x,args...)  printf("[ERROR] " x"", ##args)
 
 
 typedef enum
@@ -20,5 +23,9 @@ typedef enum
 
 
 #define ARRAY_SIZE(x)  (sizeof(x)/sizeof(x[0]))
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

@@ -1,8 +1,9 @@
 #include "bin_transfer_protocol.h"
 #include "link_mac.h"
-#include "uart_port.h"
+#include "bin_transfer.hpp"
 #include <stdlib.h>
 #include <string.h>
+#include <thread>
 
 typedef enum{
     CHECK_VERSION,
@@ -16,6 +17,8 @@ typedef enum{
 
 bin_transfer_step_t cur_step = CHECK_VERSION;
 
+
+
 #define STM32_APP_BIN_ONE_PACKAGE_MAX_SIZE 512
 
 #define TIMEOUT_TRANSFER (2000)
@@ -27,7 +30,7 @@ ret_t wait_ack(uint16_t msg_class_id, uint32_t timeout)
 }
 
 
-void bin_transfer_entry(uint8_t *bin_buffer, uint32_t bin_size)
+void bin_transfer_entry(UartCore &uart_device, uint8_t *bin_buffer, uint32_t bin_size)
 {
     uint16_t    frame_buffer_size  = STM32_APP_BIN_ONE_PACKAGE_MAX_SIZE + sizeof(data_transfer_req_t) + sizeof(mac_frame_t);
     mac_frame_t *frame_buffer      = (mac_frame_t*)malloc(frame_buffer_size);
@@ -38,7 +41,8 @@ void bin_transfer_entry(uint8_t *bin_buffer, uint32_t bin_size)
     _get_version.reserved = 0xFF;
     transfer_data_size    = frame_buffer_size;
     pack_one_frame(GET_VERSION_REQUEST, (uint8_t *)&_get_version, sizeof(_get_version), frame_buffer, &transfer_data_size);
-    transfer_data_to_port_sync(0, (uint8_t*)frame_buffer, &transfer_data_size, TIMEOUT_TRANSFER);
+    transfer_data_size = uart_device.SendData((uint8_t*)frame_buffer, transfer_data_size);
+    // transfer_data_to_port_sync(0, (uint8_t*)frame_buffer, &transfer_data_size, TIMEOUT_TRANSFER);
     wait_ack(GET_VERSION_REQUEST, TIMEOUT_TRANSFER);
 
     // 请求开始进行固件升级
@@ -48,7 +52,7 @@ void bin_transfer_entry(uint8_t *bin_buffer, uint32_t bin_size)
     _into_upgrade_req.reserved = 0xFF;
     transfer_data_size    = frame_buffer_size;
     pack_one_frame(REQUEST_INTO_UPGRADE, (uint8_t *)&_into_upgrade_req, sizeof(_into_upgrade_req), frame_buffer, &transfer_data_size);
-    transfer_data_to_port_sync(0, (uint8_t*)frame_buffer, &transfer_data_size, TIMEOUT_TRANSFER);
+    transfer_data_size = uart_device.SendData((uint8_t*)frame_buffer, transfer_data_size);
     wait_ack(REQUEST_INTO_UPGRADE, TIMEOUT_TRANSFER);
 
     // 请求进入loader
@@ -58,7 +62,7 @@ void bin_transfer_entry(uint8_t *bin_buffer, uint32_t bin_size)
     _into_loader_req.reserved = 0xFF;
     transfer_data_size    = frame_buffer_size;
     pack_one_frame(REQUEST_INTO_LOADER, (uint8_t *)&_into_loader_req, sizeof(_into_loader_req), frame_buffer, &transfer_data_size);
-    transfer_data_to_port_sync(0, (uint8_t*)frame_buffer, &transfer_data_size, TIMEOUT_TRANSFER);
+    transfer_data_size = uart_device.SendData((uint8_t*)frame_buffer, transfer_data_size);
     wait_ack(REQUEST_INTO_LOADER, TIMEOUT_TRANSFER);
 
     // TODO: 从这里拿到最大传输长度和单个固件切片的传输长度
@@ -100,7 +104,9 @@ void bin_transfer_entry(uint8_t *bin_buffer, uint32_t bin_size)
 
         transfer_data_size    = frame_buffer_size;
         pack_one_frame(DATA_TRANSFER_REQUEST, (uint8_t *)_data_transfer_req, sizeof(_data_transfer_req)+_data_transfer_req->package_size, frame_buffer, &transfer_data_size);
-        transfer_data_to_port_sync(0, (uint8_t*)frame_buffer, &transfer_data_size, TIMEOUT_TRANSFER);
+
+        transfer_data_size = uart_device.SendData((uint8_t*)frame_buffer, transfer_data_size);
+        // transfer_data_to_port_sync(0, (uint8_t*)frame_buffer, &transfer_data_size, TIMEOUT_TRANSFER);
         wait_ack(DATA_TRANSFER_REQUEST, TIMEOUT_TRANSFER);
 
         cur_write_package_index++;

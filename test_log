@@ -26,18 +26,22 @@ C1 77 06 08 C1 77 06 08 C1 77
 [DEBUG] check_sum:0xffff..
 [DEBUG] pack_one_frame success.. size:11 msg_class:1 msg_id:0 payload_length:1
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] open file...start to write..
+[DEBUG] success write size:11.. 
 size:11 ten:1 one:1..
 55 55 55 55 01 00 FF FF 01 00 
 FF 
 [DEBUG] check_sum:0xffff..
 [DEBUG] pack_one_frame success.. size:11 msg_class:2 msg_id:0 payload_length:1
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:11.. 
 size:11 ten:1 one:1..
 55 55 55 55 01 00 FF FF 02 00 
 FF 
 [DEBUG] check_sum:0xffff..
 [DEBUG] pack_one_frame success.. size:11 msg_class:2 msg_id:2 payload_length:1
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:11.. 
 size:11 ten:1 one:1..
 55 55 55 55 01 00 FF FF 02 02 
 FF 
@@ -46,6 +50,7 @@ FF
 [DEBUG] check_sum:0x137e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7E 13 02 04 
 00 00 00 00 00 02 00 00 00 00 
@@ -105,6 +110,7 @@ B8 E7 08 08 80 B4 83 B0 00 AF
 [DEBUG] check_sum:0xe934..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 34 E9 02 04 
 00 02 00 00 00 02 00 00 5D F8 
@@ -164,6 +170,7 @@ FA 68 11 4B A3 FB 02 13 1B 0A
 [DEBUG] check_sum:0xde5f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 5F DE 02 04 
 00 04 00 00 00 02 00 00 9B B2 
@@ -223,6 +230,7 @@ FB 7A 19 46 F8 68 00 F0 F7 F8
 [DEBUG] check_sum:0x3b70..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 70 3B 02 04 
 00 06 00 00 00 02 00 00 4A F8 
@@ -282,6 +290,7 @@ BD 46 5D F8 04 7B 70 47 00 38
 [DEBUG] check_sum:0x4315..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 15 43 02 04 
 00 08 00 00 00 02 00 00 5D F8 
@@ -341,6 +350,7 @@ FB 8B 01 33 FB 83 BE E7 00 BF
 [DEBUG] check_sum:0x431c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 1C 43 02 04 
 00 0A 00 00 00 02 00 00 BB 80 
@@ -400,6 +410,7 @@ CB 1A 9B B2 13 44 9B B2 01 3B
 [DEBUG] check_sum:0x8b62..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 62 8B 02 04 
 00 0C 00 00 00 02 00 00 FB 60 
@@ -459,6 +470,7 @@ BA 69 3B 6A D3 1A 5A 1C F9 69
 [DEBUG] check_sum:0x629f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 9F 62 02 04 
 00 0E 00 00 00 02 00 00 90 BC 
@@ -518,6 +530,7 @@ BB 62 00 23 7B 63 07 F1 10 03
 [DEBUG] check_sum:0xc77b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7B C7 02 04 
 00 10 00 00 00 02 00 00 03 46 
@@ -577,6 +590,7 @@ DB 89 1A 46 2F 4B 5B 68 13 44
 [DEBUG] check_sum:0x293d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3D 29 02 04 
 00 12 00 00 00 02 00 00 04 23 
@@ -636,6 +650,7 @@ FB 68 00 23 BB 60 27 4B 1B 6B
 [DEBUG] check_sum:0xc856..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 56 C8 02 04 
 00 14 00 00 00 02 00 00 09 FC 
@@ -695,6 +710,7 @@ FB 80 0B 46 BB 80 13 46 FB 70
 [DEBUG] check_sum:0x57d4..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D4 57 02 04 
 00 16 00 00 00 02 00 00 5B 00 
@@ -754,6 +770,7 @@ DB FC FB 7F 18 46 20 37 BD 46
 [DEBUG] check_sum:0x91a2..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A2 91 02 04 
 00 18 00 00 00 02 00 00 00 23 
@@ -813,6 +830,7 @@ BD 46 80 BD 3C 0C 00 20 80 B4
 [DEBUG] check_sum:0xef36..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 36 EF 02 04 
 00 1A 00 00 00 02 00 00 BB 68 
@@ -872,6 +890,7 @@ A5 F1 20 05 0E F1 20 0E 01 2A
 [DEBUG] check_sum:0xc63a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3A C6 02 04 
 00 1C 00 00 00 02 00 00 01 F0 
@@ -931,6 +950,7 @@ A2 BF 01 EB 04 51 29 43 30 BD
 [DEBUG] check_sum:0x290b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 0B 29 02 04 
 00 1E 00 00 00 02 00 00 93 F0 
@@ -990,6 +1010,7 @@ D3 70 21 FA 04 F6 42 EB 06 01
 [DEBUG] check_sum:0xd482..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 82 D4 02 04 
 00 20 00 00 00 02 00 00 C4 F1 
@@ -1049,6 +1070,7 @@ B6 1A 75 46 40 EA DC 00 55 EA
 [DEBUG] check_sum:0x5733..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 33 57 02 04 
 00 22 00 00 00 02 00 00 00 4C 
@@ -1108,6 +1130,7 @@ B7 FF 00 28 48 BF 10 F1 00 0F
 [DEBUG] check_sum:0x6d9f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 9F 6D 02 04 
 00 24 00 00 00 02 00 00 12 F5 
@@ -1167,6 +1190,7 @@ D3 23 03 FA 0C FC 40 EA 0C 00
 [DEBUG] check_sum:0xbb12..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 12 BB 02 04 
 00 26 00 00 00 02 00 00 F8 F6 
@@ -1226,6 +1250,7 @@ C2 F1 20 03 D8 40 0C FA 02 FC
 [DEBUG] check_sum:0x99ee..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EE 99 02 04 
 00 28 00 00 00 02 00 00 07 FB 
@@ -1285,6 +1310,7 @@ DB 06 13 D5 10 BD 00 F0 49 FC
 [DEBUG] check_sum:0xc156..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 56 C1 02 04 
 00 2A 00 00 00 02 00 00 00 F0 
@@ -1344,6 +1370,7 @@ AE B9 03 69 0A 46 04 46 0D 46
 [DEBUG] check_sum:0x985b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 5B 98 02 04 
 00 2C 00 00 00 02 00 00 C2 68 
@@ -1403,6 +1430,7 @@ ED D0 01 93 00 F0 08 03 02 93
 [DEBUG] check_sum:0xa7aa..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 AA A7 02 04 
 00 2E 00 00 00 02 00 00 D4 F8 
@@ -1462,6 +1490,7 @@ A9 E6 01 23 A7 E6 02 23 A5 E6
 [DEBUG] check_sum:0x777e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7E 77 02 04 
 00 30 00 00 00 02 00 00 01 F0 
@@ -1521,6 +1550,7 @@ D9 07 08 D5 23 F0 01 03 30 46
 [DEBUG] check_sum:0x9c85..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 85 9C 02 04 
 00 32 00 00 00 02 00 00 57 F8 
@@ -1580,6 +1610,7 @@ DF FB DD F8 40 E0 12 B0 70 47
 [DEBUG] check_sum:0xdceb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EB DC 02 04 
 00 34 00 00 00 02 00 00 2D E9 
@@ -1639,6 +1670,7 @@ C9 28 7F F4 78 AF 30 46 FF F7
 [DEBUG] check_sum:0x2072..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 72 20 02 04 
 00 36 00 00 00 02 00 00 40 AF 
@@ -1698,6 +1730,7 @@ BD 46 5D F8 04 7B 70 47 B4 25
 [DEBUG] check_sum:0xed9..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D9 0E 02 04 
 00 38 00 00 00 02 00 00 4F F0 
@@ -1757,6 +1790,7 @@ BD 46 5D F8 04 7B 70 47 80 B5
 [DEBUG] check_sum:0x20f6..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F6 20 02 04 
 00 3A 00 00 00 02 00 00 FF F7 
@@ -1816,6 +1850,7 @@ BD 46 90 BD 80 B5 82 B0 00 AF
 [DEBUG] check_sum:0xf7a1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A1 F7 02 04 
 00 3C 00 00 00 02 00 00 24 F8 
@@ -1875,6 +1910,7 @@ BB 62 07 F1 18 03 05 21 18 46
 [DEBUG] check_sum:0xcd1d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 1D CD 02 04 
 00 3E 00 00 00 02 00 00 1A 60 
@@ -1934,6 +1970,7 @@ B3 F8 64 30 6F EA 43 43 6F EA
 [DEBUG] check_sum:0xce85..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 85 CE 02 04 
 00 40 00 00 00 02 00 00 9A B2 
@@ -1993,6 +2030,7 @@ FF F7 D7 FF 1C 21 78 68 04 F0
 [DEBUG] check_sum:0x870a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 0A 87 02 04 
 00 42 00 00 00 02 00 00 05 4A 
@@ -2052,6 +2090,7 @@ F8 68 00 F0 A8 F8 03 46 7A 68
 [DEBUG] check_sum:0x3020..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 20 30 02 04 
 00 44 00 00 00 02 00 00 42 FA 
@@ -2111,6 +2150,7 @@ D5 FA 03 46 00 2B 01 D0 0F 23
 [DEBUG] check_sum:0xca65..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 65 CA 02 04 
 00 46 00 00 00 02 00 00 BD 46 
@@ -2170,6 +2210,7 @@ ED FE 2E E0 38 68 FF F7 91 FD
 [DEBUG] check_sum:0x9813..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 13 98 02 04 
 00 48 00 00 00 02 00 00 3B 61 
@@ -2229,6 +2270,7 @@ BD 46 90 BD 10 E9 08 08 80 B4
 [DEBUG] check_sum:0x5d08..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 08 5D 02 04 
 00 4A 00 00 00 02 00 00 80 B4 
@@ -2288,6 +2330,7 @@ BD 46 80 BD B0 B5 82 B0 00 AF
 [DEBUG] check_sum:0x430b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 0B 43 02 04 
 00 4C 00 00 00 02 00 00 78 60 
@@ -2347,6 +2390,7 @@ B9 68 F8 68 FF F7 E3 FE 00 BF
 [DEBUG] check_sum:0xf596..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 96 F5 02 04 
 00 4E 00 00 00 02 00 00 00 2B 
@@ -2406,6 +2450,7 @@ BB 68 9B 68 FA 69 04 32 5A 60
 [DEBUG] check_sum:0xa4ad..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 AD A4 02 04 
 00 50 00 00 00 02 00 00 FB 69 
@@ -2465,6 +2510,7 @@ BB 69 9B 6A 00 2B 1E D0 BB 69
 [DEBUG] check_sum:0x4f96..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 96 4F 02 04 
 00 52 00 00 00 02 00 00 12 6A 
@@ -2524,6 +2570,7 @@ FF 3F 24 D1 3B 68 00 2B 21 D0
 [DEBUG] check_sum:0x40cd..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CD 40 02 04 
 00 54 00 00 00 02 00 00 FA 68 
@@ -2583,6 +2630,7 @@ BF F3 6F 8F BF F3 4F 8F 7B 60
 [DEBUG] check_sum:0x7509..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 09 75 02 04 
 00 56 00 00 00 02 00 00 08 4B 
@@ -2642,6 +2690,7 @@ BB 69 02 FA 03 F3 DA 43 BB 68
 [DEBUG] check_sum:0x9f60..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 60 9F 02 04 
 00 58 00 00 00 02 00 00 FB 73 
@@ -2701,6 +2750,7 @@ BB 61 FB 69 5B 00 03 22 02 FA
 [DEBUG] check_sum:0x8137..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 37 81 02 04 
 00 5A 00 00 00 02 00 00 BA 69 
@@ -2760,6 +2810,7 @@ BD 46 5D F8 04 7B 70 47 00 BF
 [DEBUG] check_sum:0x869f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 9F 86 02 04 
 00 5C 00 00 00 02 00 00 01 E0 
@@ -2819,6 +2870,7 @@ BD 46 80 BD 00 BF 00 F8 00 F0
 [DEBUG] check_sum:0x7436..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 36 74 02 04 
 00 5E 00 00 00 02 00 00 B0 B5 
@@ -2878,6 +2930,7 @@ FB 68 1B 68 DB 68 1B 0C C3 F3
 [DEBUG] check_sum:0xebc0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C0 EB 02 04 
 00 60 00 00 00 02 00 00 0B 03 
@@ -2937,6 +2990,7 @@ BB 68 1B 69 02 2B 07 D0 BB 68
 [DEBUG] check_sum:0x944a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 4A 94 02 04 
 00 62 00 00 00 02 00 00 1B 69 
@@ -2996,6 +3050,7 @@ B3 F5 80 0F 0B D1 89 4B 1B 68
 [DEBUG] check_sum:0x7011..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 11 70 02 04 
 00 64 00 00 00 02 00 00 5B 68 
@@ -3055,6 +3110,7 @@ FF F7 39 F8 78 63 08 E0 FF F7
 [DEBUG] check_sum:0x547c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7C 54 02 04 
 00 66 00 00 00 02 00 00 78 63 
@@ -3114,6 +3170,7 @@ DB 6A 4F F0 70 61 39 62 39 6A
 [DEBUG] check_sum:0x8c59..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 59 8C 02 04 
 00 68 00 00 00 02 00 00 02 46 
@@ -3173,6 +3230,7 @@ FE F7 48 FE 02 46 7B 69 D3 1A
 [DEBUG] check_sum:0x9a3..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A3 09 02 04 
 00 6A 00 00 00 02 00 00 04 03 
@@ -3232,6 +3290,7 @@ E0 53 4F F4 E0 52 7A 60 7A 68
 [DEBUG] check_sum:0xc410..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 10 C4 02 04 
 00 6C 00 00 00 02 00 00 4F F4 
@@ -3291,6 +3350,7 @@ D3 1A 02 2B 01 D9 03 23 61 E1
 [DEBUG] check_sum:0xec36..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 36 EC 02 04 
 00 6E 00 00 00 02 00 00 5B 4B 
@@ -3350,6 +3410,7 @@ FE F7 39 FB F8 66 08 E0 FE F7
 [DEBUG] check_sum:0x607c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7C 60 02 04 
 00 70 00 00 00 02 00 00 00 2B 
@@ -3409,6 +3470,7 @@ FB 68 01 22 83 F8 2C 20 00 23
 [DEBUG] check_sum:0x3c37..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 37 3C 02 04 
 00 72 00 00 00 02 00 00 78 68 
@@ -3468,6 +3530,7 @@ DB 68 03 F0 04 03 04 2B 1B D1
 [DEBUG] check_sum:0x5caf..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 AF 5C 02 04 
 00 74 00 00 00 02 00 00 1B 68 
@@ -3527,6 +3590,7 @@ DA 62 3B 68 1A 68 7B 68 9A 62
 [DEBUG] check_sum:0x2067..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 67 20 02 04 
 00 76 00 00 00 02 00 00 70 47 
@@ -3586,6 +3650,7 @@ BB 69 03 F0 20 03 00 2B 02 D0
 [DEBUG] check_sum:0x4ee3..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E3 4E 02 04 
 00 78 00 00 00 02 00 00 78 68 
@@ -3645,6 +3710,7 @@ AA FF 00 BF 10 37 BD 46 80 BD
 [DEBUG] check_sum:0x4565..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 65 45 02 04 
 00 7A 00 00 00 02 00 00 1A 62 
@@ -3704,6 +3770,7 @@ FB 60 FB 68 23 F4 40 73 FB 60
 [DEBUG] check_sum:0x662e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 2E 66 02 04 
 00 7C 00 00 00 02 00 00 7B 68 
@@ -3763,6 +3830,7 @@ F3 F3 47 4A A2 FB 03 23 5B 09
 [DEBUG] check_sum:0xef8b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 8B EF 02 04 
 00 7E 00 00 00 02 00 00 7B 68 
@@ -3822,6 +3890,7 @@ FB 60 3B 68 5A 68 3B 68 9B 68
 [DEBUG] check_sum:0xc14c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 4C C1 02 04 
 00 80 00 00 00 02 00 00 3B 68 
@@ -3881,6 +3950,7 @@ BB 68 DB 68 5B 02 13 43 3B 61
 [DEBUG] check_sum:0xca8e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 8E CA 02 04 
 00 82 00 00 00 02 00 00 9B 69 
@@ -3940,6 +4010,7 @@ FE F7 81 FF 03 46 00 2B 04 D1
 [DEBUG] check_sum:0x1862..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 62 18 02 04 
 00 84 00 00 00 02 00 00 00 44 
@@ -3999,6 +4070,7 @@ FF F7 7A FF 60 B1 54 F8 04 3C
 [DEBUG] check_sum:0xe97..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 97 0E 02 04 
 00 86 00 00 00 02 00 00 93 68 
@@ -4058,6 +4130,7 @@ DA E7 6B 60 E3 E7 00 23 ED E7
 [DEBUG] check_sum:0x8991..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 91 89 02 04 
 00 88 00 00 00 02 00 00 19 46 
@@ -4117,6 +4190,7 @@ E3 C9 06 08 15 CA 06 08 0D CA
 [DEBUG] check_sum:0x8831..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 31 88 02 04 
 00 8A 00 00 00 02 00 00 8F FD 
@@ -4176,6 +4250,7 @@ FF F7 7C FC 20 46 10 BD F7 B5
 [DEBUG] check_sum:0x56b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 6B 05 02 04 
 00 8C 00 00 00 02 00 00 F0 40 
@@ -4235,6 +4310,7 @@ C6 E9 08 58 DB F8 00 10 65 4D
 [DEBUG] check_sum:0x9750..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 50 97 02 04 
 00 8E 00 00 00 02 00 00 AC 61 
@@ -4294,6 +4370,7 @@ D4 24 00 20 BC 00 00 20 9C 08
 [DEBUG] check_sum:0xca0a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 0A CA 02 04 
 00 90 00 00 00 02 00 00 20 46 
@@ -4353,6 +4430,7 @@ C0 F1 04 02 2A 44 92 00 80 45
 [DEBUG] check_sum:0x2e02..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 02 2E 02 04 
 00 92 00 00 00 02 00 00 01 B8 
@@ -4412,6 +4490,7 @@ BD 4D F0 60 14 22 00 21 20 1D
 [DEBUG] check_sum:0x2492..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 92 24 02 04 
 00 94 00 00 00 02 00 00 C4 A3 
@@ -4471,6 +4550,7 @@ FF F7 C2 FD 5D 4A 5E 49 57 60
 [DEBUG] check_sum:0xfa80..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 80 FA 02 04 
 00 96 00 00 00 02 00 00 5C 4A 
@@ -4530,6 +4610,7 @@ C9 E9 02 33 C9 E9 05 33 C9 E9
 [DEBUG] check_sum:0xbac8..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C8 BA 02 04 
 00 98 00 00 00 02 00 00 C9 E9 
@@ -4589,6 +4670,7 @@ F5 68 FF F7 B0 FB 45 F8 20 80
 [DEBUG] check_sum:0x7896..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 96 78 02 04 
 00 9A 00 00 00 02 00 00 14 48 
@@ -4648,6 +4730,7 @@ C0 E9 09 44 C0 E9 0B 44 84 74
 [DEBUG] check_sum:0x7fe..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 FE 07 02 04 
 00 9C 00 00 00 02 00 00 9A 74 
@@ -4707,6 +4790,7 @@ EC FF 20 46 FE F7 69 FB 20 46
 [DEBUG] check_sum:0xb65..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 65 0B 02 04 
 00 9E 00 00 00 02 00 00 10 BD 
@@ -4766,6 +4850,7 @@ F7 D1 38 BD E8 EB 08 08 68 2D
 [DEBUG] check_sum:0x14b8..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B8 14 02 04 
 00 A0 00 00 00 02 00 00 38 B5 
@@ -4825,6 +4910,7 @@ C0 E9 05 44 C0 E9 07 44 C0 E9
 [DEBUG] check_sum:0xe09..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 09 0E 02 04 
 00 A2 00 00 00 02 00 00 B0 30 
@@ -4884,6 +4970,7 @@ DA 61 05 22 1A 62 38 BD 70 EC
 [DEBUG] check_sum:0x1f2e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 2E 1F 02 04 
 00 A4 00 00 00 02 00 00 8C 05 
@@ -4943,6 +5030,7 @@ BC 00 51 1E 19 32 11 F8 01 4F
 [DEBUG] check_sum:0xd22a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 2A D2 02 04 
 00 A6 00 00 00 02 00 00 68 2D 
@@ -5002,6 +5090,7 @@ F8 D8 96 78 06 F0 C0 00 80 28
 [DEBUG] check_sum:0x9d88..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 88 9D 02 04 
 00 A8 00 00 00 02 00 00 F3 D1 
@@ -5061,6 +5150,7 @@ FF F7 6F FF 00 28 F1 D1 01 20
 [DEBUG] check_sum:0xa02d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 2D A0 02 04 
 00 AA 00 00 00 02 00 00 F4 E7 
@@ -5120,6 +5210,7 @@ D4 E9 00 32 9A 42 01 D1 01 20
 [DEBUG] check_sum:0x80fe..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 FE 80 02 04 
 00 AC 00 00 00 02 00 00 70 BD 
@@ -5179,6 +5270,7 @@ B3 F5 80 6F 0C D3 01 26 F2 E7
 [DEBUG] check_sum:0xd554..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 54 D5 02 04 
 00 AE 00 00 00 02 00 00 04 EB 
@@ -5238,6 +5330,7 @@ BB 60 11 46 7D 60 38 46 FE F7
 [DEBUG] check_sum:0xef96..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 96 EF 02 04 
 00 B0 00 00 00 02 00 00 FF FF 
@@ -5297,6 +5390,7 @@ E5 68 FD F7 B0 FF 03 9B 45 F8
 [DEBUG] check_sum:0x5d35..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 35 5D 02 04 
 00 B2 00 00 00 02 00 00 20 30 
@@ -5356,6 +5450,7 @@ F8 BD 13 B5 04 9C CD E9 00 34
 [DEBUG] check_sum:0x427b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7B 42 02 04 
 00 B4 00 00 00 02 00 00 0C 00 
@@ -5415,6 +5510,7 @@ AA 68 4F F0 00 01 05 F0 0D FE
 [DEBUG] check_sum:0x393a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3A 39 02 04 
 00 B6 00 00 00 02 00 00 06 93 
@@ -5474,6 +5570,7 @@ DD E9 0E 01 1B 9B C3 E9 00 01
 [DEBUG] check_sum:0x91d3..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D3 91 02 04 
 00 B8 00 00 00 02 00 00 20 46 
@@ -5533,6 +5630,7 @@ EE FF 20 46 FC F7 7D FD 20 46
 [DEBUG] check_sum:0x37a6..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A6 37 02 04 
 00 BA 00 00 00 02 00 00 20 46 
@@ -5592,6 +5690,7 @@ FC F8 29 46 01 A8 09 F0 9E FA
 [DEBUG] check_sum:0x89f1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F1 89 02 04 
 00 BC 00 00 00 02 00 00 8E FB 
@@ -5651,6 +5750,7 @@ A0 FB 01 A9 04 F1 1C 00 FF F7
 [DEBUG] check_sum:0x400a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 0A 40 02 04 
 00 BE 00 00 00 02 00 00 8E FA 
@@ -5710,6 +5810,7 @@ F0 40 02 B0 70 47 CD E9 03 10
 [DEBUG] check_sum:0xad35..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 35 AD 02 04 
 00 C0 00 00 00 02 00 00 EC E7 
@@ -5769,6 +5870,7 @@ FC F7 CA FC 76 4B 46 60 03 60
 [DEBUG] check_sum:0x68e4..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E4 68 02 04 
 00 C2 00 00 00 02 00 00 87 60 
@@ -5828,6 +5930,7 @@ B4 F5 08 08 10 25 00 20 6C F6
 [DEBUG] check_sum:0x1c9a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 9A 1C 02 04 
 00 C4 00 00 00 02 00 00 48 F6 
@@ -5887,6 +5990,7 @@ DD F8 48 90 9D F8 4C A0 0F 93
 [DEBUG] check_sum:0xb6fb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 FB B6 02 04 
 00 C6 00 00 00 02 00 00 FF F7 
@@ -5946,6 +6050,7 @@ F0 43 02 B0 70 47 09 AF CD E9
 [DEBUG] check_sum:0x3615..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 15 36 02 04 
 00 C8 00 00 00 02 00 00 93 E8 
@@ -6005,6 +6110,7 @@ F1 F2 06 08 00 00 00 00 70 B5
 [DEBUG] check_sum:0x63f5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F5 63 02 04 
 00 CA 00 00 00 02 00 00 15 9B 
@@ -6064,6 +6170,7 @@ E4 F7 08 08 00 68 01 F1 80 41
 [DEBUG] check_sum:0x1419..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 19 14 02 04 
 00 CC 00 00 00 02 00 00 0F 46 
@@ -6123,6 +6230,7 @@ A7 EB 09 07 03 D8 50 F8 04 3C
 [DEBUG] check_sum:0x9acf..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CF 9A 02 04 
 00 CE 00 00 00 02 00 00 47 FF 
@@ -6182,6 +6290,7 @@ FF F7 4B FE 22 68 05 46 00 F1
 [DEBUG] check_sum:0xe32..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 32 0E 02 04 
 00 D0 00 00 00 02 00 00 0C 06 
@@ -6241,6 +6350,7 @@ FF F7 1F FF 01 99 23 68 53 F8
 [DEBUG] check_sum:0x23e5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E5 23 02 04 
 00 D2 00 00 00 02 00 00 00 22 
@@ -6300,6 +6410,7 @@ BC BF 00 24 42 F8 04 4C 02 60
 [DEBUG] check_sum:0x2f18..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 18 2F 02 04 
 00 D4 00 00 00 02 00 00 03 D9 
@@ -6359,6 +6470,7 @@ E0 FF 08 BD 00 00 70 B5 04 46
 [DEBUG] check_sum:0xd539..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 39 D5 02 04 
 00 D6 00 00 00 02 00 00 46 F8 
@@ -6418,6 +6530,7 @@ CA FF 23 68 31 68 53 F8 0C 0C
 [DEBUG] check_sum:0x9745..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 45 97 02 04 
 00 D8 00 00 00 02 00 00 0C 38 
@@ -6477,6 +6590,7 @@ C7 FD 23 7B 1B B1 A0 69 08 B1
 [DEBUG] check_sum:0x6e1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E1 06 02 04 
 00 DA 00 00 00 02 00 00 55 F9 
@@ -6536,6 +6650,7 @@ B2 F9 08 08 B8 F9 08 08 BE F9
 [DEBUG] check_sum:0xd9a5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A5 D9 02 04 
 00 DC 00 00 00 02 00 00 CA F9 
@@ -6595,6 +6710,7 @@ F0 41 04 46 00 F1 0D 06 00 25
 [DEBUG] check_sum:0x7aba..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 BA 7A 02 04 
 00 DE 00 00 00 02 00 00 80 7F 
@@ -6654,6 +6770,7 @@ D9 69 04 46 0C F0 51 FF 20 46
 [DEBUG] check_sum:0x3d6d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 6D 3D 02 04 
 00 E0 00 00 00 02 00 00 02 B0 
@@ -6713,6 +6830,7 @@ C0 E9 09 55 C0 E9 0B 55 85 74
 [DEBUG] check_sum:0x623f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3F 62 02 04 
 00 E2 00 00 00 02 00 00 45 63 
@@ -6772,6 +6890,7 @@ DB 68 18 47 10 B5 0B 68 04 46
 [DEBUG] check_sum:0xf891..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 91 F8 02 04 
 00 E4 00 00 00 02 00 00 82 B0 
@@ -6831,6 +6950,7 @@ B8 47 20 46 09 B0 F0 BD F0 B5
 [DEBUG] check_sum:0x9876..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 76 98 02 04 
 00 E6 00 00 00 02 00 00 86 E8 
@@ -6890,6 +7010,7 @@ A9 19 0C A8 0C F0 D6 FA D8 F8
 [DEBUG] check_sum:0xeec0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C0 EE 02 04 
 00 E8 00 00 00 02 00 00 09 93 
@@ -6949,6 +7070,7 @@ B0 03 04 93 15 F4 00 75 0D 9B
 [DEBUG] check_sum:0x7da9..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A9 7D 02 04 
 00 EA 00 00 00 02 00 00 13 96 
@@ -7008,6 +7130,7 @@ C5 FE 39 68 BB 69 72 18 48 46
 [DEBUG] check_sum:0xbd9e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 9E BD 02 04 
 00 EC 00 00 00 02 00 00 00 93 
@@ -7067,6 +7190,7 @@ D7 F8 44 90 6C 30 84 E8 0C 00
 [DEBUG] check_sum:0xfa18..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 18 FA 02 04 
 00 EE 00 00 00 02 00 00 F3 E7 
@@ -7126,6 +7250,7 @@ AD EB 03 0D 6E 46 00 24 58 F8
 [DEBUG] check_sum:0x396..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 96 03 02 04 
 00 F0 00 00 00 02 00 00 05 D0 
@@ -7185,6 +7310,7 @@ CD E9 05 A3 07 23 CD E9 03 63
 [DEBUG] check_sum:0xf6b2..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B2 F6 02 04 
 00 F2 00 00 00 02 00 00 03 00 
@@ -7244,6 +7370,7 @@ FF F7 71 FC 97 E8 03 00 10 9B
 [DEBUG] check_sum:0x3ccb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CB 3C 02 04 
 00 F4 00 00 00 02 00 00 11 9B 
@@ -7303,6 +7430,7 @@ CD E9 04 31 CD E9 06 A7 00 23
 [DEBUG] check_sum:0xbbef..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EF BB 02 04 
 00 F6 00 00 00 02 00 00 F6 B2 
@@ -7362,6 +7490,7 @@ E6 FC 00 23 0D 93 0D AB CD E9
 [DEBUG] check_sum:0xe469..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 69 E4 02 04 
 00 F8 00 00 00 02 00 00 28 46 
@@ -7421,6 +7550,7 @@ D0 E7 2D E9 F0 4F 2D ED 02 8B
 [DEBUG] check_sum:0xf26b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 6B F2 02 04 
 00 FA 00 00 00 02 00 00 39 03 
@@ -7480,6 +7610,7 @@ FF F7 48 F8 0D F1 2B 02 5F FA
 [DEBUG] check_sum:0x28c2..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C2 28 02 04 
 00 FC 00 00 00 02 00 00 2B B0 
@@ -7539,6 +7670,7 @@ FE F7 B2 F9 00 F1 38 03 07 93
 [DEBUG] check_sum:0x98e0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E0 98 02 04 
 00 FE 00 00 00 02 00 00 DF E8 
@@ -7598,6 +7730,7 @@ FE F7 7E FE 82 46 00 28 42 D0
 [DEBUG] check_sum:0xcdd0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D0 CD 02 04 
 00 00 01 00 00 02 00 00 03 9E 
@@ -7657,6 +7790,7 @@ F0 4F 91 B0 08 AC DD F8 74 B0
 [DEBUG] check_sum:0x26dc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 DC 26 02 04 
 00 02 01 00 00 02 00 00 84 E8 
@@ -7716,6 +7850,7 @@ F0 83 18 4B 1A 68 D1 07 5C BF
 [DEBUG] check_sum:0xdcbc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 BC DC 02 04 
 00 04 01 00 00 02 00 00 D0 07 
@@ -7775,6 +7910,7 @@ AA 68 4F F0 00 01 FB F7 E1 FC
 [DEBUG] check_sum:0x316c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 6C 31 02 04 
 00 06 01 00 00 02 00 00 05 93 
@@ -7834,6 +7970,7 @@ FB F7 FE FB 03 B0 5D F8 04 FB
 [DEBUG] check_sum:0x97b1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B1 97 02 04 
 00 08 01 00 00 02 00 00 03 93 
@@ -7893,6 +8030,7 @@ F7 FE 20 46 F9 F7 95 FC 20 46
 [DEBUG] check_sum:0xf9fc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 FC F9 02 04 
 00 0A 01 00 00 02 00 00 67 FD 
@@ -7952,6 +8090,7 @@ EE FF 20 46 F7 F7 73 FC 20 46
 [DEBUG] check_sum:0x3346..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 46 33 02 04 
 00 0C 01 00 00 02 00 00 FD F7 
@@ -8011,6 +8150,7 @@ FF F7 5D FB A0 61 68 46 0F F0
 [DEBUG] check_sum:0x42ec..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EC 42 02 04 
 00 0E 01 00 00 02 00 00 30 BD 
@@ -8070,6 +8210,7 @@ C2 FD 29 46 68 46 01 F0 30 F9
 [DEBUG] check_sum:0x4f96..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 96 4F 02 04 
 00 10 01 00 00 02 00 00 0F F0 
@@ -8129,6 +8270,7 @@ CD E9 03 10 02 92 94 E8 03 00
 [DEBUG] check_sum:0x4065..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 65 40 02 04 
 00 12 01 00 00 02 00 00 FD F7 
@@ -8188,6 +8330,7 @@ A0 FB 6B 68 E5 60 01 33 6B 60
 [DEBUG] check_sum:0x37cc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CC 37 02 04 
 00 14 01 00 00 02 00 00 70 4B 
@@ -8247,6 +8390,7 @@ C4 03 09 08 B4 24 00 20 70 05
 [DEBUG] check_sum:0xba5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A5 0B 02 04 
 00 16 01 00 00 02 00 00 14 04 
@@ -8306,6 +8450,7 @@ AC FF 03 A8 FA F7 A0 F9 20 46
 [DEBUG] check_sum:0xd8c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 8C 0D 02 04 
 00 18 01 00 00 02 00 00 06 36 
@@ -8365,6 +8510,7 @@ CF E7 70 B5 90 B0 09 AD 0E 46
 [DEBUG] check_sum:0x50e0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E0 50 02 04 
 00 1A 01 00 00 02 00 00 00 93 
@@ -8424,6 +8570,7 @@ FA F7 43 FF 05 A9 20 46 FF F7
 [DEBUG] check_sum:0xb57e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7E B5 02 04 
 00 1C 01 00 00 02 00 00 06 EB 
@@ -8483,6 +8630,7 @@ C3 F3 07 42 62 F3 17 40 1B 0E
 [DEBUG] check_sum:0x44a4..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A4 44 02 04 
 00 1E 01 00 00 02 00 00 82 B0 
@@ -8542,6 +8690,7 @@ FF F7 F2 FF 20 46 F6 F7 77 FA
 [DEBUG] check_sum:0x2426..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 26 24 02 04 
 00 20 01 00 00 02 00 00 18 06 
@@ -8601,6 +8750,7 @@ EB FB 03 B0 30 BD 00 BF E4 F7
 [DEBUG] check_sum:0x38fc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 FC 38 02 04 
 00 22 01 00 00 02 00 00 20 46 
@@ -8660,6 +8810,7 @@ F0 B5 89 B0 06 AE 86 E8 0C 00
 [DEBUG] check_sum:0x75ac..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 AC 75 02 04 
 00 24 01 00 00 02 00 00 06 AE 
@@ -8719,6 +8870,7 @@ B3 EB A0 0F 4F EA A0 02 0D D2
 [DEBUG] check_sum:0xfa34..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 34 FA 02 04 
 00 26 01 00 00 02 00 00 60 49 
@@ -8778,6 +8930,7 @@ C0 80 0E AB 4F F0 00 0B 71 00
 [DEBUG] check_sum:0x6206..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 06 62 02 04 
 00 28 01 00 00 02 00 00 E1 68 
@@ -8837,6 +8990,7 @@ F0 EE 60 8A 91 B0 04 AF 07 F1
 [DEBUG] check_sum:0xfb90..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 90 FB 02 04 
 00 2A 01 00 00 02 00 00 14 00 
@@ -8896,6 +9050,7 @@ D3 E7 C8 45 0A D1 0E 9B 1C 60
 [DEBUG] check_sum:0x9f15..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 15 9F 02 04 
 00 2C 01 00 00 02 00 00 04 0F 
@@ -8955,6 +9110,7 @@ A3 FE BA 6C 00 26 03 46 52 00
 [DEBUG] check_sum:0x962b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 2B 96 02 04 
 00 2E 01 00 00 02 00 00 FF F7 
@@ -9014,6 +9170,7 @@ A1 00 C4 00 85 02 85 02 70 00
 [DEBUG] check_sum:0xf9bb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 BB F9 02 04 
 00 30 01 00 00 02 00 00 CC 01 
@@ -9073,6 +9230,7 @@ CD E9 04 39 0C AF 01 23 D9 E7
 [DEBUG] check_sum:0x5e34..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 34 5E 02 04 
 00 32 01 00 00 02 00 00 0C 00 
@@ -9132,6 +9290,7 @@ FF F7 89 FB 2D 21 07 46 28 46
 [DEBUG] check_sum:0x3a0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A0 03 02 04 
 00 34 01 00 00 02 00 00 FF F7 
@@ -9191,6 +9350,7 @@ A3 FA 18 B1 33 68 43 F0 02 03
 [DEBUG] check_sum:0x84eb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EB 84 02 04 
 00 36 01 00 00 02 00 00 43 F0 
@@ -9250,6 +9410,7 @@ FF F7 85 FB 97 E8 03 00 84 E8
 [DEBUG] check_sum:0x2be4..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E4 2B 02 04 
 00 38 01 00 00 02 00 00 94 E8 
@@ -9309,6 +9470,7 @@ FF F7 AB F8 83 46 10 B3 06 A8
 [DEBUG] check_sum:0x21e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 1E 02 02 04 
 00 3A 01 00 00 02 00 00 FF F7 
@@ -9368,6 +9530,7 @@ BF D1 5F E6 F1 B2 E0 E7 00 BF
 [DEBUG] check_sum:0x8c69..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 69 8C 02 04 
 00 3C 01 00 00 02 00 00 40 00 
@@ -9427,6 +9590,7 @@ D4 F8 30 90 FE F7 8D F9 CD F8
 [DEBUG] check_sum:0xd2b6..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B6 D2 02 04 
 00 3E 01 00 00 02 00 00 00 B0 
@@ -9486,6 +9650,7 @@ F1 B2 E0 E7 00 BF 40 00 00 20
 [DEBUG] check_sum:0xff3c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3C FF 02 04 
 00 40 01 00 00 02 00 00 9D F8 
@@ -9545,6 +9710,7 @@ DD E9 06 56 09 EB 87 07 05 EB
 [DEBUG] check_sum:0x3ef1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F1 3E 02 04 
 00 42 01 00 00 02 00 00 FF F7 
@@ -9604,6 +9770,7 @@ C3 17 C4 E9 00 03 20 46 F8 BD
 [DEBUG] check_sum:0xd7d5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D5 D7 02 04 
 00 44 01 00 00 02 00 00 28 6A 
@@ -9663,6 +9830,7 @@ F0 FC 08 B5 0D F0 ED FC 00 00
 [DEBUG] check_sum:0x7fc9..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C9 7F 02 04 
 00 46 01 00 00 02 00 00 10 B5 
@@ -9722,6 +9890,7 @@ F5 F7 85 F9 20 46 10 BD 00 BF
 [DEBUG] check_sum:0xa677..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 77 A6 02 04 
 00 48 01 00 00 02 00 00 44 0A 
@@ -9781,6 +9950,7 @@ DA B2 62 F3 07 00 C3 F3 07 22
 [DEBUG] check_sum:0xcfa1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A1 CF 02 04 
 00 4A 01 00 00 02 00 00 62 F3 
@@ -9840,6 +10010,7 @@ F3 F7 70 FC 20 46 10 BD 10 B5
 [DEBUG] check_sum:0x2e54..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 54 2E 02 04 
 00 4C 01 00 00 02 00 00 67 FC 
@@ -9899,6 +10070,7 @@ F8 F7 ED F9 D7 E7 28 46 0B F0
 [DEBUG] check_sum:0x904c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 4C 90 02 04 
 00 4E 01 00 00 02 00 00 01 32 
@@ -9958,6 +10130,7 @@ F0 BD F0 B5 89 B0 06 AE 86 E8
 [DEBUG] check_sum:0xcb93..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 93 CB 02 04 
 00 50 01 00 00 02 00 00 04 92 
@@ -10017,6 +10190,7 @@ D3 F8 C0 30 CB 62 70 47 03 68
 [DEBUG] check_sum:0xba46..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 46 BA 02 04 
 00 52 01 00 00 02 00 00 9B 68 
@@ -10076,6 +10250,7 @@ F0 43 04 46 85 B0 08 46 88 46
 [DEBUG] check_sum:0xf9bf..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 BF F9 02 04 
 00 54 01 00 00 02 00 00 FF F7 
@@ -10135,6 +10310,7 @@ CE FC A0 74 28 46 FF F7 E9 FC
 [DEBUG] check_sum:0x7728..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 28 77 02 04 
 00 56 01 00 00 02 00 00 B5 FC 
@@ -10194,6 +10370,7 @@ A0 62 0B F0 6B FB A2 6A 01 46
 [DEBUG] check_sum:0x224..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 24 02 02 04 
 00 58 01 00 00 02 00 00 28 46 
@@ -10253,6 +10430,7 @@ BC 45 A4 EB 0E 04 8C BF 01 37
 [DEBUG] check_sum:0x6ccd..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CD 6C 02 04 
 00 5A 01 00 00 02 00 00 93 42 
@@ -10312,6 +10490,7 @@ F8 D1 E0 E7 2D E9 F0 47 14 46
 [DEBUG] check_sum:0x68ad..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 AD 68 02 04 
 00 5C 01 00 00 02 00 00 00 23 
@@ -10371,6 +10550,7 @@ F7 F7 BD F8 B6 E7 94 F8 39 20
 [DEBUG] check_sum:0x5c7c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7C 5C 02 04 
 00 5E 01 00 00 02 00 00 FB 68 
@@ -10430,6 +10610,7 @@ F7 F7 15 F8 04 9B BE 68 10 2B
 [DEBUG] check_sum:0x6685..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 85 66 02 04 
 00 60 01 00 00 02 00 00 4F F0 
@@ -10489,6 +10670,7 @@ FB 69 3A 68 31 46 48 46 F8 F7
 [DEBUG] check_sum:0x4198..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 98 41 02 04 
 00 62 01 00 00 02 00 00 CD E9 
@@ -10548,6 +10730,7 @@ B2 68 7B 69 93 42 11 DA D3 1D
 [DEBUG] check_sum:0xb164..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 64 B1 02 04 
 00 64 01 00 00 02 00 00 23 F0 
@@ -10607,6 +10790,7 @@ B9 6C 00 93 3A 68 33 46 0B F1
 [DEBUG] check_sum:0xe3ea..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EA E3 02 04 
 00 66 01 00 00 02 00 00 14 00 
@@ -10666,6 +10850,7 @@ CD E9 02 12 CD E9 00 9B 18 EE
 [DEBUG] check_sum:0xb721..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 21 B7 02 04 
 00 68 01 00 00 02 00 00 27 20 
@@ -10725,6 +10910,7 @@ CD E9 01 13 00 94 97 F8 4C 10
 [DEBUG] check_sum:0x6fc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 FC 06 02 04 
 00 6A 01 00 00 02 00 00 94 F8 
@@ -10784,6 +10970,7 @@ AB 60 BB 69 00 93 07 F1 08 02
 [DEBUG] check_sum:0xcac0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C0 CA 02 04 
 00 6C 01 00 00 02 00 00 BD E8 
@@ -10843,6 +11030,7 @@ AA 68 BB 69 93 42 11 DA D3 1D
 [DEBUG] check_sum:0x526e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 6E 52 02 04 
 00 6E 01 00 00 02 00 00 64 10 
@@ -10902,6 +11090,7 @@ EA F7 92 FD 39 68 83 45 28 BF
 [DEBUG] check_sum:0x63e3..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E3 63 02 04 
 00 70 01 00 00 02 00 00 01 0A 
@@ -10961,6 +11150,7 @@ AB 42 19 D1 D8 F8 00 30 BA 6C
 [DEBUG] check_sum:0x8668..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 68 86 02 04 
 00 72 01 00 00 02 00 00 F0 8F 
@@ -11020,6 +11210,7 @@ D9 E7 12 A9 58 46 FD F7 94 FE
 [DEBUG] check_sum:0x8910..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 10 89 02 04 
 00 74 01 00 00 02 00 00 12 9B 
@@ -11079,6 +11270,7 @@ D0 E6 6E 4A 12 AE 33 46 91 1F
 [DEBUG] check_sum:0x28b8..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B8 28 02 04 
 00 76 01 00 00 02 00 00 02 0C 
@@ -11138,6 +11330,7 @@ FE F7 3F FA CF E5 10 9B 43 F0
 [DEBUG] check_sum:0x8d4d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 4D 8D 02 04 
 00 78 01 00 00 02 00 00 7F F4 
@@ -11197,6 +11390,7 @@ D9 E7 94 F8 24 30 8B 42 0A D1
 [DEBUG] check_sum:0x4eb1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B1 4E 02 04 
 00 7A 01 00 00 02 00 00 00 9B 
@@ -11256,6 +11450,7 @@ F7 F7 7A F8 94 F8 4B 10 C0 B2
 [DEBUG] check_sum:0x841f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 1F 84 02 04 
 00 7C 01 00 00 02 00 00 03 00 
@@ -11315,6 +11510,7 @@ F6 F7 70 FF 81 46 00 28 40 F0
 [DEBUG] check_sum:0x2687..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 87 26 02 04 
 00 7E 01 00 00 02 00 00 06 98 
@@ -11374,6 +11570,7 @@ B6 FE 00 28 6B D0 06 A8 F6 F7
 [DEBUG] check_sum:0x1bbf..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 BF 1B 02 04 
 00 80 01 00 00 02 00 00 38 BF 
@@ -11433,6 +11630,7 @@ F6 D0 FC B9 01 24 D8 F8 14 30
 [DEBUG] check_sum:0xa921..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 21 A9 02 04 
 00 82 01 00 00 02 00 00 DB 5D 
@@ -11492,6 +11690,7 @@ BC D1 B1 46 0F E0 27 46 01 26
 [DEBUG] check_sum:0x54a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 4A 05 02 04 
 00 84 01 00 00 02 00 00 27 46 
@@ -11551,6 +11750,7 @@ C8 BF 4A F0 01 0A 04 44 A4 B2
 [DEBUG] check_sum:0x25cd..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CD 25 02 04 
 00 86 01 00 00 02 00 00 70 B5 
@@ -11610,6 +11810,7 @@ E4 FC 4F F0 00 0A 06 98 FC F7
 [DEBUG] check_sum:0xb1ab..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 AB B1 02 04 
 00 88 01 00 00 02 00 00 07 92 
@@ -11669,6 +11870,7 @@ F6 F7 43 F9 94 F8 4A 30 C0 B2
 [DEBUG] check_sum:0xd460..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 60 D4 02 04 
 00 8A 01 00 00 02 00 00 83 42 
@@ -11728,6 +11930,7 @@ BB F1 00 0F 5C D1 B9 F1 00 0F
 [DEBUG] check_sum:0x4092..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 92 40 02 04 
 00 8C 01 00 00 02 00 00 B8 F1 
@@ -11787,6 +11990,7 @@ C0 B2 83 42 0C BF 01 23 00 23
 [DEBUG] check_sum:0x2ebf..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 BF 2E 02 04 
 00 8E 01 00 00 02 00 00 24 30 
@@ -11846,6 +12050,7 @@ C3 E9 00 4A 77 E0 DD F8 04 B0
 [DEBUG] check_sum:0x70c6..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C6 70 02 04 
 00 90 01 00 00 02 00 00 5C 46 
@@ -11905,6 +12110,7 @@ C0 B2 83 42 0C BF 01 23 00 23
 [DEBUG] check_sum:0x5f57..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 57 5F 02 04 
 00 92 01 00 00 02 00 00 07 93 
@@ -11964,6 +12170,7 @@ DD F8 00 B0 5C 46 D9 46 BA F1
 [DEBUG] check_sum:0xe606..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 06 E6 02 04 
 00 94 01 00 00 02 00 00 C1 43 
@@ -12023,6 +12230,7 @@ F0 47 9C B0 DD E9 26 96 0A AC
 [DEBUG] check_sum:0x4d3a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3A 4D 02 04 
 00 96 01 00 00 02 00 00 03 00 
@@ -12082,6 +12290,7 @@ FB F7 C6 FD 04 90 20 46 FB F7
 [DEBUG] check_sum:0x64b0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B0 64 02 04 
 00 98 01 00 00 02 00 00 04 46 
@@ -12141,6 +12350,7 @@ E2 69 12 78 C0 B2 82 42 D8 D1
 [DEBUG] check_sum:0x472..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 72 04 02 04 
 00 9A 01 00 00 02 00 00 01 23 
@@ -12200,6 +12410,7 @@ FB F7 36 FE 00 F1 38 03 07 93
 [DEBUG] check_sum:0x14fc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 FC 14 02 04 
 00 9C 01 00 00 02 00 00 18 BF 
@@ -12259,6 +12470,7 @@ F8 D1 01 23 01 93 9A 46 90 E7
 [DEBUG] check_sum:0x3248..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 48 32 02 04 
 00 9E 01 00 00 02 00 00 1A A9 
@@ -12318,6 +12530,7 @@ C8 F8 00 30 1F B1 E3 6A B3 42
 [DEBUG] check_sum:0xc586..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 86 C5 02 04 
 00 A0 01 00 00 02 00 00 03 00 
@@ -12377,6 +12590,7 @@ E8 24 00 20 E4 24 00 20 E0 24
 [DEBUG] check_sum:0x95ab..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 AB 95 02 04 
 00 A2 01 00 00 02 00 00 DC F8 
@@ -12436,6 +12650,7 @@ FA F7 68 F9 06 46 00 2D 10 DD
 [DEBUG] check_sum:0x1285..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 85 12 02 04 
 00 A4 01 00 00 02 00 00 53 F8 
@@ -12495,6 +12710,7 @@ EC E7 53 F8 04 2B 01 3A 12 F8
 [DEBUG] check_sum:0x82cb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CB 82 02 04 
 00 A6 01 00 00 02 00 00 70 47 
@@ -12554,6 +12770,7 @@ A4 10 A8 EB 05 02 94 42 A8 BF
 [DEBUG] check_sum:0x218a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 8A 21 02 04 
 00 A8 01 00 00 02 00 00 7E FE 
@@ -12613,6 +12830,7 @@ EA F7 D1 F8 B9 F1 00 0F 07 D0
 [DEBUG] check_sum:0x7146..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 46 71 02 04 
 00 AA 01 00 00 02 00 00 05 00 
@@ -12672,6 +12890,7 @@ FF F7 EE FF 10 BD 81 BF 03 68
 [DEBUG] check_sum:0xc530..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 30 C5 02 04 
 00 AC 01 00 00 02 00 00 00 22 
@@ -12731,6 +12950,7 @@ D1 F8 04 80 B9 F1 00 0F 16 D0
 [DEBUG] check_sum:0x12c1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C1 12 02 04 
 00 AE 01 00 00 02 00 00 6A 60 
@@ -12790,6 +13010,7 @@ F8 E7 70 47 13 B5 8B 68 01 AA
 [DEBUG] check_sum:0xfdf7..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F7 FD 02 04 
 00 B0 01 00 00 02 00 00 D9 69 
@@ -12849,6 +13070,7 @@ ED F7 7F F9 20 46 10 BD 00 00
 [DEBUG] check_sum:0x9d80..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 80 9D 02 04 
 00 B2 01 00 00 02 00 00 67 F9 
@@ -12908,6 +13130,7 @@ FF 30 70 47 00 00 03 68 53 F8
 [DEBUG] check_sum:0x65fb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 FB 65 02 04 
 00 B4 01 00 00 02 00 00 A2 42 
@@ -12967,6 +13190,7 @@ F0 BD 70 B5 86 B0 04 AC 84 E8
 [DEBUG] check_sum:0xb213..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 13 B2 02 04 
 00 B6 01 00 00 02 00 00 0C 00 
@@ -13026,6 +13250,7 @@ C0 30 CB 62 70 47 03 68 9B 68
 [DEBUG] check_sum:0x6ca2..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A2 6C 02 04 
 00 B8 01 00 00 02 00 00 B8 47 
@@ -13085,6 +13310,7 @@ CA F9 10 BD 7C 25 00 20 A4 15
 [DEBUG] check_sum:0xaaf5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F5 AA 02 04 
 00 BA 01 00 00 02 00 00 0A 48 
@@ -13144,6 +13370,7 @@ B7 00 04 EB 86 06 B4 42 02 D1
 [DEBUG] check_sum:0xe349..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 49 E3 02 04 
 00 BC 01 00 00 02 00 00 04 37 
@@ -13203,6 +13430,7 @@ A0 61 28 46 FF F7 92 FB 29 46
 [DEBUG] check_sum:0x2747..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 47 27 02 04 
 00 BE 01 00 00 02 00 00 F0 F7 
@@ -13262,6 +13490,7 @@ FF F7 6F FD 05 46 FF F7 DF FA
 [DEBUG] check_sum:0x810d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 0D 81 02 04 
 00 C0 01 00 00 02 00 00 02 A8 
@@ -13321,6 +13550,7 @@ F0 83 3C 00 00 20 38 00 00 20
 [DEBUG] check_sum:0x6b04..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 04 6B 02 04 
 00 C2 01 00 00 02 00 00 2D E9 
@@ -13380,6 +13610,7 @@ DD E9 06 01 00 23 BB 60 05 9B
 [DEBUG] check_sum:0x421c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 1C 42 02 04 
 00 C4 01 00 00 02 00 00 F0 8F 
@@ -13439,6 +13670,7 @@ BA F1 04 0F CB D1 B9 F1 01 0F
 [DEBUG] check_sum:0xb0ab..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 AB B0 02 04 
 00 C6 01 00 00 02 00 00 0C 3C 
@@ -13498,6 +13730,7 @@ EC F7 B6 FC 2B 68 DF 68 57 F8
 [DEBUG] check_sum:0xde94..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 94 DE 02 04 
 00 C8 01 00 00 02 00 00 4F F4 
@@ -13557,6 +13790,7 @@ D7 E9 02 12 F5 F7 8D FD 18 EE
 [DEBUG] check_sum:0x6be5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E5 6B 02 04 
 00 CA 01 00 00 02 00 00 10 0A 
@@ -13616,6 +13850,7 @@ FF F7 44 F8 5B 46 7A 68 6A B9
 [DEBUG] check_sum:0xf0ea..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EA F0 02 04 
 00 CC 01 00 00 02 00 00 AA 05 
@@ -13675,6 +13910,7 @@ C9 F8 08 20 7A 69 00 92 18 EE
 [DEBUG] check_sum:0xd241..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 41 D2 02 04 
 00 CE 01 00 00 02 00 00 18 EE 
@@ -13734,6 +13970,7 @@ F0 EE 60 8A 91 B0 04 AF 8A 46
 [DEBUG] check_sum:0x5f62..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 62 5F 02 04 
 00 D0 01 00 00 02 00 00 14 00 
@@ -13793,6 +14030,7 @@ F1 F7 46 F8 65 E7 10 46 86 E7
 [DEBUG] check_sum:0x8c5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C5 08 02 04 
 00 D2 01 00 00 02 00 00 B0 EE 
@@ -13852,6 +14090,7 @@ BD E8 F0 8F EB F7 56 FE 07 F1
 [DEBUG] check_sum:0xe061..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 61 E0 02 04 
 00 D4 01 00 00 02 00 00 02 93 
@@ -13911,6 +14150,7 @@ F5 F7 C0 FA 4F F0 00 0B 02 46
 [DEBUG] check_sum:0xa053..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 53 A0 02 04 
 00 D6 01 00 00 02 00 00 41 D2 
@@ -13970,6 +14210,7 @@ A8 BF 9B 1A 3A 6C 13 60 07 F1
 [DEBUG] check_sum:0x955c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 5C 95 02 04 
 00 D8 01 00 00 02 00 00 02 2E 
@@ -14029,6 +14270,7 @@ D9 E7 12 A9 58 46 FD F7 7A FE
 [DEBUG] check_sum:0x71ee..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EE 71 02 04 
 00 DA 01 00 00 02 00 00 12 9B 
@@ -14088,6 +14330,7 @@ FF F7 18 FE 97 E8 03 00 86 E8
 [DEBUG] check_sum:0x7401..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 01 74 02 04 
 00 DC 01 00 00 02 00 00 02 26 
@@ -14147,6 +14390,7 @@ CC E5 0A 9B 9E 42 7F F4 9E AD
 [DEBUG] check_sum:0x9e64..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 64 9E 02 04 
 00 DE 01 00 00 02 00 00 0E AB 
@@ -14206,6 +14450,7 @@ DD E7 55 46 CD F8 00 A0 DA E7
 [DEBUG] check_sum:0x7273..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 73 72 02 04 
 00 E0 01 00 00 02 00 00 99 42 
@@ -14265,6 +14510,7 @@ BC 30 83 42 7F F4 76 AF 23 7C
 [DEBUG] check_sum:0x9132..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 32 91 02 04 
 00 E2 01 00 00 02 00 00 14 A9 
@@ -14324,6 +14570,7 @@ E7 FF 4F F0 FF 33 18 A9 50 46
 [DEBUG] check_sum:0xcc4b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 4B CC 02 04 
 00 E4 01 00 00 02 00 00 10 D1 
@@ -14383,6 +14630,7 @@ B8 B1 04 9B 03 9A C0 1A 3C 28
 [DEBUG] check_sum:0xae9..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E9 0A 02 04 
 00 E6 01 00 00 02 00 00 4F EA 
@@ -14442,6 +14690,7 @@ E2 E7 01 26 EB E7 00 24 9A B9
 [DEBUG] check_sum:0x240d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 0D 24 02 04 
 00 E8 01 00 00 02 00 00 BB F1 
@@ -14501,6 +14750,7 @@ A2 46 B9 F1 00 0F 2D D1 2B 7C
 [DEBUG] check_sum:0x19..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 19 00 02 04 
 00 EA 01 00 00 02 00 00 EE F7 
@@ -14560,6 +14810,7 @@ F0 8F 4F F6 FF 73 E0 E7 00 BF
 [DEBUG] check_sum:0x63bc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 BC 63 02 04 
 00 EC 01 00 00 02 00 00 F3 F7 
@@ -14619,6 +14870,7 @@ BA F1 00 0F 05 D1 25 B9 0B 9B
 [DEBUG] check_sum:0xaf07..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 07 AF 02 04 
 00 EE 01 00 00 02 00 00 00 0F 
@@ -14678,6 +14930,7 @@ B2 46 2D E0 08 27 B7 E7 46 B3
 [DEBUG] check_sum:0xc9ef..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EF C9 02 04 
 00 F0 01 00 00 02 00 00 F6 B1 
@@ -14737,6 +14990,7 @@ DC E7 4F F0 01 09 EC E7 DD F8
 [DEBUG] check_sum:0x3186..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 86 31 02 04 
 00 F2 01 00 00 02 00 00 05 D0 
@@ -14796,6 +15050,7 @@ FB F7 E1 FF 4F F0 FF 33 1A A9
 [DEBUG] check_sum:0x6ca1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A1 6C 02 04 
 00 F4 01 00 00 02 00 00 D1 E7 
@@ -14855,6 +15110,7 @@ CE D1 0C 99 18 EE 10 0A FB F7
 [DEBUG] check_sum:0x7d44..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 44 7D 02 04 
 00 F6 01 00 00 02 00 00 04 B0 
@@ -14914,6 +15170,7 @@ ED F7 10 FC 4F EA E8 73 42 46
 [DEBUG] check_sum:0x3cc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CC 03 02 04 
 00 F8 01 00 00 02 00 00 4F F0 
@@ -14973,6 +15230,7 @@ FF 32 4F F0 FF 33 DD E7 00 BF
 [DEBUG] check_sum:0xd8cb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CB D8 02 04 
 00 FA 01 00 00 02 00 00 38 24 
@@ -15032,6 +15290,7 @@ E9 E7 2D E9 F0 43 8D B0 DD E9
 [DEBUG] check_sum:0x6a6d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 6D 6A 02 04 
 00 FC 01 00 00 02 00 00 16 96 
@@ -15091,6 +15350,7 @@ FA D1 9D F8 2B 30 04 2B 05 D0
 [DEBUG] check_sum:0x169a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 9A 16 02 04 
 00 FE 01 00 00 02 00 00 18 A9 
@@ -15150,6 +15410,7 @@ FA F8 E8 E7 06 A8 F2 F7 86 FD
 [DEBUG] check_sum:0x347f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7F 34 02 04 
 00 00 02 00 00 02 00 00 08 21 
@@ -15209,6 +15470,7 @@ F3 D0 03 2B 40 F0 14 81 23 6A
 [DEBUG] check_sum:0x68e0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E0 68 02 04 
 00 02 02 00 00 02 00 00 F2 F7 
@@ -15268,6 +15530,7 @@ F2 F7 98 FB 08 21 02 46 18 EE
 [DEBUG] check_sum:0xd020..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 20 D0 02 04 
 00 04 02 00 00 02 00 00 18 EE 
@@ -15327,6 +15590,7 @@ FF F7 6F FD D6 E7 38 24 00 20
 [DEBUG] check_sum:0xf87e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7E F8 02 04 
 00 06 02 00 00 02 00 00 24 4B 
@@ -15386,6 +15650,7 @@ FA D0 5D F8 04 4B 1A 46 05 F0
 [DEBUG] check_sum:0x1b14..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 14 1B 02 04 
 00 08 02 00 00 02 00 00 30 BD 
@@ -15445,6 +15710,7 @@ E5 FE 20 46 41 46 FF F7 70 FE
 [DEBUG] check_sum:0x5836..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 36 58 02 04 
 00 0A 02 00 00 02 00 00 0C FF 
@@ -15504,6 +15770,7 @@ FF F7 CC FD 20 46 BD E8 F8 83
 [DEBUG] check_sum:0xafd8..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D8 AF 02 04 
 00 0C 02 00 00 02 00 00 D9 FC 
@@ -15563,6 +15830,7 @@ E7 F7 B6 FE E7 F7 C0 FE 38 B5
 [DEBUG] check_sum:0xee11..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 11 EE 02 04 
 00 0E 02 00 00 02 00 00 F7 E7 
@@ -15622,6 +15890,7 @@ E5 E7 18 F1 02 0F E2 D1 01 23
 [DEBUG] check_sum:0x8790..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 90 87 02 04 
 00 10 02 00 00 02 00 00 A3 71 
@@ -15681,6 +15950,7 @@ CD F8 20 B0 15 E7 2D E9 F0 4F
 [DEBUG] check_sum:0x440d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 0D 44 02 04 
 00 12 02 00 00 02 00 00 2D ED 
@@ -15740,6 +16010,7 @@ DF ED 08 7A B4 EE 67 0A F1 EE
 [DEBUG] check_sum:0x8cd5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D5 8C 02 04 
 00 14 02 00 00 02 00 00 00 20 
@@ -15799,6 +16070,7 @@ E7 F7 18 FD 20 46 10 BD D8 19
 [DEBUG] check_sum:0x1ed9..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D9 1E 02 04 
 00 16 02 00 00 02 00 00 FF F7 
@@ -15858,6 +16130,7 @@ A0 70 08 BD 08 46 11 46 1A 46
 [DEBUG] check_sum:0x643c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3C 64 02 04 
 00 18 02 00 00 02 00 00 03 F0 
@@ -15917,6 +16190,7 @@ A7 F8 01 90 E0 F7 A4 F8 42 1C
 [DEBUG] check_sum:0x4485..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 85 44 02 04 
 00 1A 02 00 00 02 00 00 30 46 
@@ -15976,6 +16250,7 @@ F7 1B 09 08 00 1C 09 08 09 1C
 [DEBUG] check_sum:0x1e14..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 14 1E 02 04 
 00 1C 02 00 00 02 00 00 29 1C 
@@ -16035,6 +16310,7 @@ B4 1C 09 08 D0 1C 09 08 F0 1C
 [DEBUG] check_sum:0x6d82..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 82 6D 02 04 
 00 1E 02 00 00 02 00 00 BC 1D 
@@ -16094,6 +16370,7 @@ F0 BD 1C 4D 8D F8 0B 00 04 AE
 [DEBUG] check_sum:0xc6ff..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 FF C6 02 04 
 00 20 02 00 00 02 00 00 08 22 
@@ -16153,6 +16430,7 @@ EF D0 62 6E D0 07 04 D4 99 05
 [DEBUG] check_sum:0x6a04..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 04 6A 02 04 
 00 22 02 00 00 02 00 00 A0 6D 
@@ -16212,6 +16490,7 @@ FF FF 2D E9 F7 4F 1F 46 13 46
 [DEBUG] check_sum:0x2e7b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7B 2E 02 04 
 00 24 02 00 00 02 00 00 7B 43 
@@ -16271,6 +16550,7 @@ C0 47 01 30 D5 D0 61 6B 41 B1
 [DEBUG] check_sum:0x97c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 7C 09 02 04 
 00 26 02 00 00 02 00 00 A2 89 
@@ -16330,6 +16610,7 @@ AB 89 01 2B 07 D9 B5 F9 0E 30
 [DEBUG] check_sum:0x548..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 48 05 02 04 
 00 28 02 00 00 02 00 00 7D FD 
@@ -16389,6 +16670,7 @@ A4 10 00 26 A6 42 05 D1 70 BD
 [DEBUG] check_sum:0x29cb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CB 29 02 04 
 00 2A 02 00 00 02 00 00 29 46 
@@ -16448,6 +16730,7 @@ A0 89 05 43 A5 81 CD E7 95 62
 [DEBUG] check_sum:0x591a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 1A 59 02 04 
 00 2C 02 00 00 02 00 00 F1 B8 
@@ -16507,6 +16790,7 @@ A3 42 11 60 E0 D1 1C 68 5B 68
 [DEBUG] check_sum:0x47a0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A0 47 02 04 
 00 2E 02 00 00 02 00 00 0C 23 
@@ -16566,6 +16850,7 @@ FF F7 AB FD A3 89 19 07 1D D5
 [DEBUG] check_sum:0x8f79..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 79 8F 02 04 
 00 30 02 00 00 02 00 00 1B 4B 
@@ -16625,6 +16910,7 @@ EC 68 E8 E7 4F F0 FF 30 F1 E7
 [DEBUG] check_sum:0xeacd..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CD EA 02 04 
 00 32 02 00 00 02 00 00 6C 22 
@@ -16684,6 +16970,7 @@ E4 00 2E 01 2E 01 2E 01 2E 01
 [DEBUG] check_sum:0x2ef2..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F2 2E 02 04 
 00 34 02 00 00 02 00 00 2E 01 
@@ -16743,6 +17030,7 @@ A1 E7 55 4B 9F E7 55 4B 9D E7
 [DEBUG] check_sum:0x196..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 96 01 02 04 
 00 36 02 00 00 02 00 00 65 E7 
@@ -16802,6 +17090,7 @@ C4 28 09 08 D8 28 09 08 FA 28
 [DEBUG] check_sum:0xb54e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 4E B5 02 04 
 00 38 02 00 00 02 00 00 17 28 
@@ -16861,6 +17150,7 @@ DF 7D 08 08 ED 7D 08 08 17 7E
 [DEBUG] check_sum:0x8097..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 97 80 02 04 
 00 3A 02 00 00 02 00 00 31 7E 
@@ -16920,6 +17210,7 @@ A5 42 3F F6 3F AF 6B E6 70 69
 [DEBUG] check_sum:0x5161..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 61 51 02 04 
 00 3C 02 00 00 02 00 00 CD E9 
@@ -16979,6 +17270,7 @@ B3 68 63 B1 0C 2B 04 D0 0C 21
 [DEBUG] check_sum:0x1221..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 21 12 02 04 
 00 3E 02 00 00 02 00 00 79 4A 
@@ -17038,6 +17330,7 @@ FF FF 95 F8 FF FF 5F 29 09 08
 [DEBUG] check_sum:0x7ba9..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A9 7B 02 04 
 00 40 02 00 00 02 00 00 87 29 
@@ -17097,6 +17390,7 @@ FF F7 28 BB 70 B5 04 46 0D 46
 [DEBUG] check_sum:0x4663..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 63 46 02 04 
 00 42 02 00 00 02 00 00 51 EC 
@@ -17156,6 +17450,7 @@ D8 BF 07 99 00 F1 01 00 DA BF
 [DEBUG] check_sum:0xb8e2..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E2 B8 02 04 
 00 44 02 00 00 02 00 00 17 92 
@@ -17215,6 +17510,7 @@ AE F1 30 0E B9 E7 6E 2A DB E7
 [DEBUG] check_sum:0xa002..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 02 A0 02 04 
 00 46 02 00 00 02 00 00 82 46 
@@ -17274,6 +17570,7 @@ D3 E9 00 23 DD F7 B0 FC 82 46
 [DEBUG] check_sum:0x2811..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 11 28 02 04 
 00 48 02 00 00 02 00 00 4D FB 
@@ -17333,6 +17630,7 @@ C3 60 31 46 02 F0 7A FE 00 28
 [DEBUG] check_sum:0xaae1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E1 AA 02 04 
 00 4A 02 00 00 02 00 00 82 80 
@@ -17392,6 +17690,7 @@ DD E9 08 01 53 EC 10 2B DD F7
 [DEBUG] check_sum:0x69bb..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 BB 69 02 04 
 00 4C 02 00 00 02 00 00 4D F9 
@@ -17451,6 +17750,7 @@ DD F7 D7 FA B2 E7 00 23 0A 93
 [DEBUG] check_sum:0x1545..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 45 15 02 04 
 00 4E 02 00 00 02 00 00 35 E5 
@@ -17510,6 +17810,7 @@ FF F7 85 BF 00 BF BC 00 00 20
 [DEBUG] check_sum:0xc45d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 5D C4 02 04 
 00 50 02 00 00 02 00 00 30 B5 
@@ -17569,6 +17870,7 @@ AB 6A A3 F5 61 63 2B 65 0A 9B
 [DEBUG] check_sum:0x9157..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 57 91 02 04 
 00 52 02 00 00 02 00 00 B8 F1 
@@ -17628,6 +17930,7 @@ E9 E7 70 B5 14 46 4A 1C 06 46
 [DEBUG] check_sum:0x2adc..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 DC 2A 02 04 
 00 54 02 00 00 02 00 00 0D 46 
@@ -17687,6 +17990,7 @@ EC 68 EE E7 BC 00 00 20 6C 22
 [DEBUG] check_sum:0xa745..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 45 A7 02 04 
 00 56 02 00 00 02 00 00 30 B5 
@@ -17746,6 +18050,7 @@ D4 BF 00 20 01 20 70 47 A0 F5
 [DEBUG] check_sum:0xf771..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 71 F7 02 04 
 00 58 02 00 00 02 00 00 B6 50 
@@ -17805,6 +18110,7 @@ BD 9B 08 08 A5 98 08 08 73 9C
 [DEBUG] check_sum:0xc808..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 08 C8 02 04 
 00 5A 02 00 00 02 00 00 A5 98 
@@ -17864,6 +18170,7 @@ D8 E7 4C 49 4D 4A EB 68 64 28
 [DEBUG] check_sum:0xab85..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 85 AB 02 04 
 00 5C 02 00 00 02 00 00 02 FB 
@@ -17923,6 +18230,7 @@ CD F8 14 A0 BC E7 BA F1 64 0F
 [DEBUG] check_sum:0x626f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 6F 62 02 04 
 00 5E 02 00 00 02 00 00 04 D0 
@@ -17982,6 +18290,7 @@ F2 F3 5C E6 00 BF 94 F8 FF FF
 [DEBUG] check_sum:0x8683..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 83 86 02 04 
 00 60 02 00 00 02 00 00 74 2C 
@@ -18041,6 +18350,7 @@ FA D1 18 1A 80 10 70 47 2D E9
 [DEBUG] check_sum:0x8466..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 66 84 02 04 
 00 62 02 00 00 02 00 00 F8 4F 
@@ -18100,6 +18410,7 @@ DF E8 03 F0 0C 1A 22 29 5D 5D
 [DEBUG] check_sum:0x14b5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B5 14 02 04 
 00 64 02 00 00 02 00 00 44 D1 
@@ -18159,6 +18470,7 @@ CF FA A0 89 B4 F9 0C 20 10 F0
 [DEBUG] check_sum:0xdbe..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 BE 0D 02 04 
 00 66 02 00 00 02 00 00 63 69 
@@ -18218,6 +18530,7 @@ EB E7 01 A9 05 F1 5C 03 32 46
 [DEBUG] check_sum:0x5d8b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 8B 5D 02 04 
 00 68 02 00 00 02 00 00 40 46 
@@ -18277,6 +18590,7 @@ D1 18 1F 46 13 F8 01 0B 00 91
 [DEBUG] check_sum:0x7b58..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 58 7B 02 04 
 00 6A 02 00 00 02 00 00 00 28 
@@ -18336,6 +18650,7 @@ FF F7 C5 FE 00 9B 00 F0 0F 00
 [DEBUG] check_sum:0xed9e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 9E ED 02 04 
 00 6C 02 00 00 02 00 00 00 FA 
@@ -18395,6 +18710,7 @@ F1 F9 4C 46 23 69 5A 1C 04 EB
 [DEBUG] check_sum:0x7cf1..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F1 7C 02 04 
 00 6E 02 00 00 02 00 00 22 69 
@@ -18454,6 +18770,7 @@ A3 46 54 F8 04 0B 00 28 F2 D0
 [DEBUG] check_sum:0x376d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 6D 37 02 04 
 00 70 02 00 00 02 00 00 42 46 
@@ -18513,6 +18830,7 @@ C6 60 3C B1 6B 6A 62 68 DB 68
 [DEBUG] check_sum:0xdc8f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 8F DC 02 04 
 00 72 02 00 00 02 00 00 53 F8 
@@ -18572,6 +18890,7 @@ DA 07 23 D4 98 07 49 BF 5B 08
 [DEBUG] check_sum:0x85d2..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D2 85 02 04 
 00 74 02 00 00 02 00 00 2D E9 
@@ -18631,6 +18950,7 @@ BD E8 F8 83 00 BF 38 2F 09 08
 [DEBUG] check_sum:0xed0b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 0B ED 02 04 
 00 76 02 00 00 02 00 00 D8 20 
@@ -18690,6 +19010,7 @@ E7 D8 33 1B 15 3B 23 F0 03 03
 [DEBUG] check_sum:0x5d37..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 37 5D 02 04 
 00 78 02 00 00 02 00 00 1A 44 
@@ -18749,6 +19070,7 @@ E5 E7 01 A8 FF F7 DE FC 01 9B
 [DEBUG] check_sum:0x209d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 9D 20 02 04 
 00 7A 02 00 00 02 00 00 10 30 
@@ -18808,6 +19130,7 @@ A3 68 9B 1B A3 60 23 68 33 44
 [DEBUG] check_sum:0x1c8b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 8B 1C 02 04 
 00 7C 02 00 00 02 00 00 7E FF 
@@ -18867,6 +19190,7 @@ F0 E7 03 AB 00 93 2A 46 0F 4B
 [DEBUG] check_sum:0xf2a6..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A6 F2 02 04 
 00 7E 02 00 00 02 00 00 44 2F 
@@ -18926,6 +19250,7 @@ B7 BF 08 08 B7 BF 08 08 B7 BF
 [DEBUG] check_sum:0xb295..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 95 B2 02 04 
 00 80 02 00 00 02 00 00 B7 BF 
@@ -18985,6 +19310,7 @@ F9 E7 00 BF 00 00 00 00 93 68
 [DEBUG] check_sum:0x412d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 2D 41 02 04 
 00 82 02 00 00 02 00 00 FF F7 
@@ -19044,6 +19370,7 @@ A5 E7 00 23 01 34 05 93 19 46
 [DEBUG] check_sum:0xe02b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 2B E0 02 04 
 00 84 02 00 00 02 00 00 01 23 
@@ -19103,6 +19430,7 @@ E1 C5 08 08 F5 C5 08 08 71 C5
 [DEBUG] check_sum:0xa6ec..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EC A6 02 04 
 00 86 02 00 00 02 00 00 0E 68 
@@ -19162,6 +19490,7 @@ A0 69 88 B1 01 28 07 D1 2A 68
 [DEBUG] check_sum:0xc53b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3B C5 02 04 
 00 88 02 00 00 02 00 00 2A 60 
@@ -19221,6 +19550,7 @@ E3 60 ED 1B AB 44 25 69 5D 44
 [DEBUG] check_sum:0x4ff6..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F6 4F 02 04 
 00 8A 02 00 00 02 00 00 25 61 
@@ -19280,6 +19610,7 @@ B5 1C 00 2B 5B D0 10 2B 09 D1
 [DEBUG] check_sum:0x2fe6..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E6 2F 02 04 
 00 8C 02 00 00 02 00 00 16 D8 
@@ -19339,6 +19670,7 @@ DD E7 44 2D 01 D1 23 44 DB E7
 [DEBUG] check_sum:0xd910..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 10 D9 02 04 
 00 8E 02 00 00 02 00 00 42 45 
@@ -19398,6 +19730,7 @@ FB FE C9 F8 00 00 C9 F8 10 00
 [DEBUG] check_sum:0x1db2..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B2 1D 02 04 
 00 90 02 00 00 02 00 00 FF 33 
@@ -19457,6 +19790,7 @@ A2 F1 30 03 09 2B 09 92 F0 D9
 [DEBUG] check_sum:0xddee..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EE DD 02 04 
 00 92 02 00 00 02 00 00 01 B1 
@@ -19516,6 +19850,7 @@ EC 80 09 9B 02 3B 09 93 6B 1E
 [DEBUG] check_sum:0xb1c9..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C9 B1 02 04 
 00 94 02 00 00 02 00 00 30 33 
@@ -19575,6 +19910,7 @@ F8 06 0A 93 03 D5 2B 68 0D 9A
 [DEBUG] check_sum:0xf966..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 66 F9 02 04 
 00 96 02 00 00 02 00 00 40 F0 
@@ -19634,6 +19970,7 @@ DD E9 18 23 9A 42 02 DB FB 07
 [DEBUG] check_sum:0xf21..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 21 0F 02 04 
 00 98 02 00 00 02 00 00 58 46 
@@ -19693,6 +20030,7 @@ C3 AE 11 9B 1C AA 9B 00 87 E5
 [DEBUG] check_sum:0x8558..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 58 85 02 04 
 00 9A 02 00 00 02 00 00 28 4A 
@@ -19752,6 +20090,7 @@ DD F8 80 80 06 91 10 EE 10 AA
 [DEBUG] check_sum:0xd2ee..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EE D2 02 04 
 00 9C 02 00 00 02 00 00 11 FD 
@@ -19811,6 +20150,7 @@ D7 F7 D7 FF 01 23 06 46 A1 F1
 [DEBUG] check_sum:0x276d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 6D 27 02 04 
 00 9E 02 00 00 02 00 00 F8 77 
@@ -19870,6 +20210,7 @@ D0 46 D9 46 82 46 A1 F1 50 7B
 [DEBUG] check_sum:0x81de..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 DE 81 02 04 
 00 A0 02 00 00 02 00 00 49 46 
@@ -19929,6 +20270,7 @@ F8 D0 00 97 49 E0 05 4B D7 F7
 [DEBUG] check_sum:0xfe1c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 1C FE 02 04 
 00 A2 02 00 00 02 00 00 5F 46 
@@ -19988,6 +20330,7 @@ FD F7 0C F9 06 46 0B 9B 00 2B
 [DEBUG] check_sum:0xc026..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 26 C0 02 04 
 00 A4 02 00 00 02 00 00 73 F9 
@@ -20047,6 +20390,7 @@ FF 3B 05 46 02 BB 01 46 18 EE
 [DEBUG] check_sum:0x5561..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 61 55 02 04 
 00 A6 02 00 00 02 00 00 06 32 
@@ -20106,6 +20450,7 @@ F8 B5 00 BF F8 BC 08 BC 9E 46
 [DEBUG] check_sum:0xe3ca..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 CA E3 02 04 
 00 A8 02 00 00 02 00 00 65 3A 
@@ -20165,6 +20510,7 @@ B1 CB 06 08 B1 CB 06 08 B1 CB
 [DEBUG] check_sum:0x1164..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 64 11 02 04 
 00 AA 02 00 00 02 00 00 70 6C 
@@ -20224,6 +20570,7 @@ D0 24 00 20 90 25 00 20 CC 24
 [DEBUG] check_sum:0x2b97..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 97 2B 02 04 
 00 AC 02 00 00 02 00 00 00 00 
@@ -20283,6 +20630,7 @@ F8 18 09 08 FC ED 08 08 00 00
 [DEBUG] check_sum:0x1e64..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 64 1E 02 04 
 00 AE 02 00 00 02 00 00 5F 5F 
@@ -20342,6 +20690,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0x2fae..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 AE 2F 02 04 
 00 B0 02 00 00 02 00 00 00 75 
@@ -20401,6 +20750,7 @@ BE F4 08 08 00 00 00 00 02 00
 [DEBUG] check_sum:0x4c66..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 66 4C 02 04 
 00 B2 02 00 00 02 00 00 F8 18 
@@ -20460,6 +20810,7 @@ F8 18 09 08 6F F5 08 08 00 00
 [DEBUG] check_sum:0x9b2e..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 2E 9B 02 04 
 00 B4 02 00 00 02 00 00 41 4C 
@@ -20519,6 +20870,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0xbcb7..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 B7 BC 02 04 
 00 B6 02 00 00 02 00 00 00 00 
@@ -20578,6 +20930,7 @@ C9 89 07 08 F1 89 07 08 00 00
 [DEBUG] check_sum:0xb3e9..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E9 B3 02 04 
 00 B8 02 00 00 02 00 00 68 69 
@@ -20637,6 +20990,7 @@ F0 F8 08 08 02 00 00 00 00 EB
 [DEBUG] check_sum:0x6bc7..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 C7 6B 02 04 
 00 BA 02 00 00 02 00 00 25 6D 
@@ -20696,6 +21050,7 @@ F8 18 09 08 60 FC 08 08 00 00
 [DEBUG] check_sum:0x55a5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A5 55 02 04 
 00 BC 02 00 00 02 00 00 B8 FC 
@@ -20755,6 +21110,7 @@ C8 06 09 08 02 00 00 00 38 F0
 [DEBUG] check_sum:0x1926..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 26 19 02 04 
 00 BE 02 00 00 02 00 00 24 00 
@@ -20814,6 +21170,7 @@ F8 18 09 08 EB 02 09 08 00 00
 [DEBUG] check_sum:0x5371..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 71 53 02 04 
 00 C0 02 00 00 02 00 00 69 6D 
@@ -20873,6 +21230,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0x1c4c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 4C 1C 02 04 
 00 C2 02 00 00 02 00 00 63 45 
@@ -20932,6 +21290,7 @@ CD 4C 07 08 31 46 07 08 EF 45
 [DEBUG] check_sum:0x8fa7..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A7 8F 02 04 
 00 C4 02 00 00 02 00 00 29 45 
@@ -20991,6 +21350,7 @@ A9 5D 07 08 AF 5D 07 08 95 5E
 [DEBUG] check_sum:0x87ea..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 EA 87 02 04 
 00 C6 02 00 00 02 00 00 F9 5E 
@@ -21050,6 +21410,7 @@ F8 18 09 08 90 07 09 08 00 00
 [DEBUG] check_sum:0x34a5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 A5 34 02 04 
 00 C8 02 00 00 02 00 00 49 77 
@@ -21109,6 +21470,7 @@ CC 09 09 08 01 86 07 08 29 86
 [DEBUG] check_sum:0x43d..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3D 04 02 04 
 00 CA 02 00 00 02 00 00 73 49 
@@ -21168,6 +21530,7 @@ F5 A6 07 08 00 00 00 00 48 0D
 [DEBUG] check_sum:0x9378..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 78 93 02 04 
 00 CC 02 00 00 02 00 00 C9 89 
@@ -21227,6 +21590,7 @@ F8 18 09 08 7A 0F 09 08 00 00
 [DEBUG] check_sum:0xba65..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 65 BA 02 04 
 00 CE 02 00 00 02 00 00 D3 0F 
@@ -21286,6 +21650,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0x442b..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 2B 44 02 04 
 00 D0 02 00 00 02 00 00 72 5F 
@@ -21345,6 +21710,7 @@ D8 09 09 08 03 F4 FF FF 53 6F
 [DEBUG] check_sum:0xcd4f..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 4F CD 02 04 
 00 D2 02 00 00 02 00 00 69 E6 
@@ -21404,6 +21770,7 @@ D0 14 09 08 45 E2 06 08 65 E2
 [DEBUG] check_sum:0x19d8..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D8 19 02 04 
 00 D4 02 00 00 02 00 00 BF EF 
@@ -21463,6 +21830,7 @@ F8 18 09 08 97 17 09 08 00 00
 [DEBUG] check_sum:0x7804..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 04 78 02 04 
 00 D6 02 00 00 02 00 00 F0 17 
@@ -21522,6 +21890,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0xc833..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 33 C8 02 04 
 00 D8 02 00 00 02 00 00 39 6F 
@@ -21581,6 +21950,7 @@ D9 55 08 08 FD 55 08 08 51 56
 [DEBUG] check_sum:0x8202..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 02 82 02 04 
 00 DA 02 00 00 02 00 00 30 31 
@@ -21640,6 +22010,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0x99e5..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 E5 99 02 04 
 00 DC 02 00 00 02 00 00 44 65 
@@ -21699,6 +22070,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0xaad3..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 D3 AA 02 04 
 00 DE 02 00 00 02 00 00 72 00 
@@ -21758,6 +22130,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0x2c02..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 02 2C 02 04 
 00 E0 02 00 00 02 00 00 1C 20 
@@ -21817,6 +22190,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0x1332..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 32 13 02 04 
 00 E2 02 00 00 02 00 00 00 00 
@@ -21876,6 +22250,7 @@ C0 00 00 20 50 4F 53 49 58 00
 [DEBUG] check_sum:0x7642..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 42 76 02 04 
 00 E4 02 00 00 02 00 00 74 73 
@@ -21935,6 +22310,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0xe1f0..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 F0 E1 02 04 
 00 E6 02 00 00 02 00 00 65 64 
@@ -21994,6 +22370,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0x419c..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 9C 41 02 04 
 00 E8 02 00 00 02 00 00 43 6F 
@@ -22053,6 +22430,7 @@ FD 0F A5 32 9D 97 8C CF 08 BA
 [DEBUG] check_sum:0xea54..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 54 EA 02 04 
 00 EA 02 00 00 02 00 00 25 61 
@@ -22112,6 +22490,7 @@ EF 1B 09 08 F7 1B 09 08 00 1C
 [DEBUG] check_sum:0x91df..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 DF 91 02 04 
 00 EC 02 00 00 02 00 00 75 00 
@@ -22171,6 +22550,7 @@ size:530 ten:53 one:0..
 [DEBUG] check_sum:0x6c90..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 90 6C 02 04 
 00 EE 02 00 00 02 00 00 6C 69 
@@ -22230,6 +22610,7 @@ B5 44 B4 9D D9 79 43 78 EA 44
 [DEBUG] check_sum:0x4a84..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 84 4A 02 04 
 00 F0 02 00 00 02 00 00 00 00 
@@ -22289,6 +22670,7 @@ B0 B0 08 84 00 00 00 00 03 97
 [DEBUG] check_sum:0xe19..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 19 0E 02 04 
 00 F2 02 00 00 02 00 00 11 96 
@@ -22348,6 +22730,7 @@ B0 09 FF FF 01 0B CA 01 04 A4
 [DEBUG] check_sum:0xfc31..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 31 FC 02 04 
 00 F4 02 00 00 02 00 00 03 97 
@@ -22407,6 +22790,7 @@ FD 7F 01 00 00 00 3C 34 FD 7F
 [DEBUG] check_sum:0x5d3a..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 3A 5D 02 04 
 00 F6 02 00 00 02 00 00 B0 B0 
@@ -22466,6 +22850,7 @@ FD 7F 01 00 00 00 28 54 FD 7F
 [DEBUG] check_sum:0xc744..
 [DEBUG] pack_one_frame success.. size:530 msg_class:2 msg_id:4 payload_length:520
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:530.. 
 size:530 ten:53 one:0..
 55 55 55 55 08 02 44 C7 02 04 
 00 F8 02 00 00 02 00 00 58 FC 
@@ -22526,6 +22911,7 @@ C0 00 00 20 00 00 00 00 6C 22
 [DEBUG] check_sum:0xa76e..
 [DEBUG] pack_one_frame success.. size:326 msg_class:2 msg_id:4 payload_length:316
 [DEBUG] transfer_data_to_port_sync ... 
+[DEBUG] success write size:326.. 
 size:326 ten:32 one:6..
 55 55 55 55 3C 01 6E A7 02 04 
 00 FA 02 00 34 01 00 00 43 00 

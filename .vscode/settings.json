@@ -38,6 +38,7 @@
         "*.tcc": "c",
         "memory": "c",
         "bin_transfer_protocol.h": "c",
-        "uart_port.h": "c"
+        "uart_port.h": "c",
+        "__mutex_base": "cpp"
     }
 }
