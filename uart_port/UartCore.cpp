@@ -54,8 +54,10 @@ UartCore::~UartCore()
 
 uint32_t UartCore::SendData(uint8_t *data, uint32_t size)
 {
+    static uint32_t total_size = 0;
     std::lock_guard<std::mutex> lk(m_write_mutex);
-    DBG("SendData size:%d..\n", size);
     size = write(m_fd, data, size);
+    total_size += size;
+    DBG("SendData size:%d..total:%u\n", size, total_size);
     return size;
 }

@@ -108,4 +108,3 @@ uint32_t crc32_cal(uint8_t *data, uint32_t len, uint32_t init_crc32)
     }
     return crc;
 }
-

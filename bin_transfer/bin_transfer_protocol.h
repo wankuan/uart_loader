@@ -88,7 +88,7 @@ typedef struct
 typedef struct
 {
     ret_code_t ret_code; // 非0，发起重传
-    uint32_t   nex_package_index; // 指定下一个要传输的包index，正常情况下为cur_package_index+1
+    uint32_t   next_package_index; // 指定下一个要传输的包index，正常情况下为cur_package_index+1
 }__PACKED data_transfer_ack_t;
 
 

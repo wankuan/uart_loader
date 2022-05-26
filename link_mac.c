@@ -66,7 +66,8 @@ void printf_buffer(uint8_t *payload, uint16_t length)
     }
 }
 
-ret_t pack_one_frame(uint16_t msg_class_id, uint8_t *payload, uint16_t payload_length, mac_frame_t *frame_buffer, uint16_t *buffer_size)
+ret_t pack_one_frame(uint16_t msg_class_id, uint8_t type, uint8_t *payload, uint16_t payload_length, mac_frame_t *frame_buffer,
+                     uint16_t *buffer_size)
 {
     mac_frame_t *frame = (mac_frame_t *)frame_buffer;
     if ((sizeof(mac_frame_t) + payload_length) > *buffer_size) {
@@ -79,10 +80,11 @@ ret_t pack_one_frame(uint16_t msg_class_id, uint8_t *payload, uint16_t payload_l
     frame->payload_length = payload_length;
     frame->msg_class      = MSG_CLASS_MASK(msg_class_id);
     frame->msg_id         = MSG_ID_MASK(msg_class_id);
+    frame->type           = type;
     frame->check_sum      = check_sum(payload, payload_length);
     memcpy(frame->payload, payload, payload_length);
-    DBG("pack_one_frame success.. size:%d msg_class:%d msg_id:%d payload_length:%d\n", *buffer_size, frame->msg_class, frame->msg_id,
-        frame->payload_length);
+    DBG("pack_one_frame success.. size:%d msg_class:%d msg_id:%d type:%d payload_length:%d\n", *buffer_size, frame->msg_class, frame->msg_id,
+        frame->type, frame->payload_length);
     return RET_SUCCESS;
 }
 
@@ -112,9 +114,9 @@ ret_t unpack_stream_cycle(uint8_t *stream, uint16_t stream_length)
     static uint16_t total_stream_fail_nums = 0;
 
     mac_frame_t *pFrame                = (mac_frame_t *)frame_buffer;  // 上一个包前导码+payloadlength不完整
-    uint8_t *    pData                 = stream;
+    uint8_t     *pData                 = stream;
     uint16_t     cur_stream_read_index = 0;
-    if(total_stream_nums == 57){
+    if (total_stream_nums == 57) {
         total_stream_nums = 57;
     }
     DBG("\n\n=========stream unpack cycle..stream_length:%d frame_buffer_index:%d total:%d\n", stream_length, frame_buffer_index, total_stream_nums);
@@ -135,7 +137,8 @@ ret_t unpack_stream_cycle(uint8_t *stream, uint16_t stream_length)
                 if ((stream_length - cur_stream_read_index) >= sizeof(mac_frame_t)) {
                     uint16_t header_diff = 0;
                     // TODO: 需要考虑frame_buffer_index越界的情况
-                    DBG("cover header...frame_buffer_index:%d cur_stream_read_index:%d  header_diff:%d...\n", frame_buffer_index, cur_stream_read_index, header_diff);
+                    DBG("cover header...frame_buffer_index:%d cur_stream_read_index:%d  header_diff:%d...\n", frame_buffer_index,
+                        cur_stream_read_index, header_diff);
                     header_diff = sizeof(mac_frame_t) - frame_buffer_index;
                     memcpy((void *)&frame_buffer[frame_buffer_index], (void *)&stream[cur_stream_read_index], header_diff);
                     frame_buffer_index += header_diff;

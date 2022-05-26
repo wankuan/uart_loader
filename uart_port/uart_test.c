@@ -119,11 +119,11 @@ int main(int argc, char *argv[])
     tcflush(fd, TCIFLUSH); /* Discards old data in the rx buffer            */
 
     /*------------------------------- Read data from serial port -----------------------------*/
-     int  err;
-     pthread_t ntid;
-     err = pthread_create(&ntid, NULL, test_write_thread, NULL);
-     if  (err != 0)
-         printf ( "can't create thread: %s\n" ,  strerror (err));
+    //  int  err;
+    //  pthread_t ntid;
+    //  err = pthread_create(&ntid, NULL, test_write_thread, NULL);
+    //  if  (err != 0)
+    //      printf ( "can't create thread: %s\n" ,  strerror (err));
 
 
 

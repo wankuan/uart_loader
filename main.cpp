@@ -98,10 +98,11 @@ int main(int argc, char *argv[])
 {
     uint8_t mode = 0;
     if (argc <= 2) {
-        // static uint32_t crc_result = 0xFFFFFFFF;
-        // uint32_t stream = {0x00000001};
-        // crc_result = crc32_cal(&stream, 4, crc_result);
-        // DBG("scrc:0x%x\n", crc_result);
+        static uint32_t crc_result = 0xFFFFFFFF;
+        // uint32_t stream = {0x00000002};
+        uint8_t stream2[4] = {0x00, 0x00, 0x00, 0x02};
+        crc_result = crc32_cal((uint8_t *)stream2, 4, crc_result);
+        DBG("scrc:0x%x\n", crc_result);
 
         DBG("no input args..\n");
         return -1;
