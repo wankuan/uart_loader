@@ -6,7 +6,15 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+// #define USE_DEBUG
+
+#ifdef USE_DEBUG
 #define DBG(x,args...)  printf("[DEBUG] " x"", ##args)
+#else
+#define DBG(x,args...)
+#endif
+
 #define INFO(x,args...)  printf("[INFO] " x"", ##args)
 #define ERROR(x,args...)  printf("[ERROR] " x"", ##args)
 

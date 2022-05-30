@@ -7,9 +7,6 @@
 #define MAX_UNPACK_CB_SIZE (10)
 #define PREAMBLE_SYNC_DATA (0x55555555)
 
-#define MAX_MSG_PAYLOAD_LENGTH         520
-#define MAX_FRAME_PAYLOAD_LENGTH       (MAX_MSG_PAYLOAD_LENGTH + sizeof(mac_frame_t))
-#define MAX_LINK_BUFFER_PAYLOAD_LENGTH MAX_FRAME_PAYLOAD_LENGTH
 
 uint16_t check_sum(uint8_t *data, uint16_t length);
 
@@ -42,11 +39,11 @@ unpack_callback_item_t *find_frame_item(uint8_t msg_class, uint8_t msg_id)
     return NULL;
 }
 
-ret_t register_frame_callback(uint8_t msg_class, uint8_t msg_id, frame_unpack_callback_t callback)
+ret_t register_frame_callback(uint16_t msg_class_id, frame_unpack_callback_t callback)
 {
     static uint8_t index                  = 0;
-    unpack_cb_item_table[index].msg_class = msg_class;
-    unpack_cb_item_table[index].msg_id    = msg_id;
+    unpack_cb_item_table[index].msg_class = MSG_CLASS_MASK(msg_class_id);
+    unpack_cb_item_table[index].msg_id    = MSG_ID_MASK(msg_class_id);
     unpack_cb_item_table[index].callback  = callback;
     index++;
     return RET_SUCCESS;
@@ -71,7 +68,7 @@ ret_t pack_one_frame(uint16_t msg_class_id, uint8_t type, uint8_t *payload, uint
 {
     mac_frame_t *frame = (mac_frame_t *)frame_buffer;
     if ((sizeof(mac_frame_t) + payload_length) > *buffer_size) {
-        DBG("frame buffer size:%d has not cover sizeof(mac_frame_t) + payload_length\n", *buffer_size);
+        ERROR("frame buffer size:%d has not cover sizeof(mac_frame_t) + payload_length\n", *buffer_size);
         *buffer_size = 0;
         return RET_FAIL;
     }
@@ -145,7 +142,7 @@ ret_t unpack_stream_cycle(uint8_t *stream, uint16_t stream_length)
                     cur_stream_read_index += header_diff;
                     last_frame_left_length = pFrame->payload_length;
                 } else {  // / 剩下的stream 还不是个完整的header，拷贝到frame buffer后退出
-                    INFO("current frame_buffer_index:%d is invalid..\n", frame_buffer_index);
+                    DBG("current frame_buffer_index:%d is invalid..\n", frame_buffer_index);
                     // TODO: 需要考虑frame_buffer_index越界的情况
                     memcpy((void *)&frame_buffer[frame_buffer_index], (void *)&stream[cur_stream_read_index], stream_length - cur_stream_read_index);
                     frame_buffer_index += stream_length - cur_stream_read_index;
@@ -173,7 +170,7 @@ ret_t unpack_stream_cycle(uint8_t *stream, uint16_t stream_length)
                 last_frame_left_length -= stream_length - cur_stream_read_index;
                 frame_buffer_index += stream_length - cur_stream_read_index;
 
-                INFO("unpack done, not a whole frame, wait for next stream...cur_frame_buffer_index:%d left:%d \n", frame_buffer_index,
+                DBG("unpack done, not a whole frame, wait for next stream...cur_frame_buffer_index:%d left:%d \n", frame_buffer_index,
                      last_frame_left_length);
                 // 退出解包循环
                 break;
@@ -189,12 +186,10 @@ ret_t unpack_stream_cycle(uint8_t *stream, uint16_t stream_length)
         }
         // 解包完成,开始校验数据
         if (step == UNPACK_FRAME_DONE) {
-            // DBG("===output inner buffer...\n");
-            // printf_buffer(frame_buffer, frame_buffer_index);
             // DBG("===output payload buffer...\n");
             // printf_buffer(pFrame->payload, pFrame->payload_length);
             if (pFrame->check_sum == check_sum(pFrame->payload, pFrame->payload_length)) {
-                INFO("====== FRAME CHECK SUM OK =======class:0x%x id:0x%x\n", pFrame->msg_class, pFrame->msg_id);
+                DBG("====== FRAME CHECK SUM OK =======class:0x%x id:0x%x\n", pFrame->msg_class, pFrame->msg_id);
                 step = UNPACK_CHECK_SUM_OK;
             } else {  // TODO:校验失败，暂时不考虑
                 ERROR("!!!!  FRAME CHECK SUM FAIL !!!!\n");
@@ -206,12 +201,12 @@ ret_t unpack_stream_cycle(uint8_t *stream, uint16_t stream_length)
         if (step == UNPACK_CHECK_SUM_OK) {
             unpack_callback_item_t *item = find_frame_item(pFrame->msg_class, pFrame->msg_id);
             if (item == NULL) {
-                ERROR("item nullptr...\n");
+                ERROR("item nullptr...class:0x%x id:0x%x..\n", pFrame->msg_class, pFrame->msg_id);
             } else {
                 if (item->callback != NULL) {
                     item->callback(pFrame);
                 } else {
-                    ERROR("can not find match item...callback not register...\n");
+                    ERROR("can not find match item...callback not register...class:0x%x id:0x%x..\n", pFrame->msg_class, pFrame->msg_id);
                 }
             }
 

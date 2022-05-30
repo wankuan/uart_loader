@@ -70,8 +70,8 @@ void read_data_from_file(const char *file_name, uint8_t *stream, uint32_t *strea
         return;
     }
     *stream_length = fread(stream, 1, buffer_size, pFile);
-    DBG("file:%s size:%d.. \n", file_name, *stream_length);
-    printf_all_data_ten_one_line(stream, 200);
+    // DBG("file:%s size:%d.. \n", file_name, *stream_length);
+    // printf_all_data_ten_one_line(stream, 200);
 }
 #define STREAM_MAX_LENGTH 522
 
@@ -127,8 +127,8 @@ int main(int argc, char *argv[])
             return -1;
         }
         frame_callback_table_init();
-        register_frame_callback(0x11, 0x22, test_msg_cb);
-        register_frame_callback(0x02, 0x04, bin_loader_unpack_cb);
+        // register_frame_callback(0x11, 0x22, test_msg_cb);
+        register_frame_callback(DATA_TRANSFER_REQUEST, bin_loader_unpack_cb);
         DBG("current binary file:%s...one_unpack_size:%d\n", argv[2], one_unpack_size);
         unpack_file_cycle(argv[2], one_unpack_size);
     } else if (mode == 2) {

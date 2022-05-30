@@ -8,7 +8,8 @@
 extern "C" {
 #endif
 
-typedef ret_t ret_code_t;
+typedef uint8_t ret_code_t;
+
 
 typedef struct
 {
